@@ -18,7 +18,6 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [How to report a bug](bugreporting) <br>
 #### [Templates](templates) <br>
 #### [Where can I ask for help?](gethelp) <br>
-A nice extension to the previous section, with links to good comms channels for anyone with questions.
 #### [First bugs for Contributors](firstbugs) <br>
 #### [How to request an "enhancement"](enhancements) <br>    
 #### [Style Guide / Coding conventions](stylecoding) <br>
@@ -64,6 +63,9 @@ Bugs are problems in code, in the functionality of an application or in its UI d
 <br>
 List the templates in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
 <br><br> 
+
+#### [Where can I ask for help?](gethelp) <br>
+A nice extension to the previous section, with links to good comms channels for anyone with questions.
 
 #### [First bugs for Contributors](firstbugs) <br>
 Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
