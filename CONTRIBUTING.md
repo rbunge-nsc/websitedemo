@@ -14,21 +14,21 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [Resources](#resources) <br>
 #### [Testing](#testing) <br>
 #### [Environment](#environment) <br>
-#### [How to submit changes](#changes) <br>
-#### [How to report a bug](#bugreporting) <br>
+#### [How to submit changes](#how-to-submit-changes) <br>
+#### [How to report a bug](#how-to-report-a-bug) <br>
 #### [Templates](#templates) <br>
-#### [Where can I ask for help?](#gethelp) <br>
-#### [First bugs for Contributors](#firstbugs) <br>
-#### [How to request an "enhancement"](#enhancements) <br>    
-#### [Style Guide / Coding conventions](#stylecoding) <br>
-#### [Code of Conduct](#conduct) <br>
-#### [Recognition model](#recognition) <br>
-#### [Who is involved?](#primarycontributors) <br>
-#### [Where can I ask for help?](#gethelp) <br>    
-#### [Rewards System](#rewards) <br>    
+#### [Where can I ask for help?](#where-can-i-ask-for-help) <br>
+#### [First bugs for Contributors](#first-bugs-for-contributors) <br>
+#### [How to request an "enhancement"](#how-to-request-an-enhancement) <br>    
+#### [Style Guide / Coding conventions](#style-guide-/-coding-conventions) <br>
+#### [Code of Conduct](#code-of-conduct) <br>
+#### [Recognition model](#recognition-model) <br>
+#### [Core Contributors](#core-contributors) <br>
+#### [Where can I ask for help?](#where-can-i-ask-for-help) <br>    
+#### [Rewards System](#rewards-system) <br>    
 #### [Glossary](#glossary) <br>
-#### [Resources & Materials](#resources) <br>
-#### [Credits & Attribution](#credits) <br>
+#### [Resources and Materials](#resources-and-materials) <br>
+#### [Credits and Attribution](#credits-and-attribution) <br>
 
 <br><br>    
 #### [Resources](#resources)
@@ -57,7 +57,7 @@ Describe change submission process : Pull Request protocol etc.
 You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
 <br><br>    
 
-#### [How to report a bug](#bugreporting)
+#### [How to report a bug](#How-to-report-a-bug)
 <br>
 Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
 <br><br>    
@@ -67,33 +67,33 @@ Bugs are problems in code, in the functionality of an application or in its UI d
 List the templates in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
 <br><br> 
 
-#### [Where can I ask for help?](#gethelp) <br>
+#### [Where can I ask for help?](#where-can-i-ask-for-help) <br>
 A nice extension to the previous section, with links to good comms channels for anyone with questions.
 
-#### [First bugs for Contributors](#firstbugs) <br>
+#### [First bugs for Contributors](#first-bugs-for-contributors) <br>
 Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
 <br><br> 
 
-#### [How to request an "enhancement"](#enhancements) <br>
+#### [How to request an "enhancement"](#how-to-request-an-enhancement) <br>
 Enhancements are features that you might like to suggest to a project, but aren't necessarily bugs/problems with the existing code; there is a "label" for enhancments in Github's Issues (where you report bugs), so you can tag issues as "enhancement," and thereby allow contributors to prioritize issues/bugs reported to the project. See Atom's example section.
 
-#### [Style Guide / Coding conventions](#stylecoding) <br>
+#### [Style Guide / Coding conventions](#style-guide-/-coding-conventions) <br>
 See Atom's example.
 <br><br> 
 
-#### [Code of Conduct](#conduct) <br>
+#### [Code of Conduct](#code-of-conduct) <br>
 You can make this part of CONTRIBUTING.md as Atom did to set the tone for contributions. You can also make this a separate Markdown file and link to it in CONTRIBUTING.md. You can also extend this section to link to your LICENSE.md or any details for project consumers on permissions and license details you have established for building on your work.
 <br><br> 
 
-#### [Recognition model](#recognition) <br>
+#### [Recognition model](#recognition-model) <br>
 Provide a pre-emptive "thank you" for contributing and list any recognition contributors might receive for participating in your project.<br><br> 
 <br><br> 
 
-#### [Who is involved?](#primarycontributors) <br>
+#### [Core Contributors](#core-contributors) <br>
 Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to have a more personal/friendly individual to attact to a project and reach out to with questions. You might list the core contributors and their preferred methods of contact here, or link to a humans.txt file in your root directory (same place as your CONTRIBUTING.md file), which lets people know who they are working. Here is an example of a humans.txt file.
 <br><br> 
 
-#### [Rewards System](#rewards) <br>
+#### [Rewards System](#rewards-system) <br>
 (OPTIONAL) Include a humans.txt file to give accolades to contributors. Store this in your root directory just like your CONTRIBUTING.md. On deployment, it will be available via your website at www.YOURWEBSITE.com/humans.txt.
 <br>
 (OPTIONAL) Get a DOI for a your project and make Contributor Badges as a way to recognize contributors for their particular contributions.
@@ -103,7 +103,7 @@ Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to 
 #### [Glossary](#glossary) <br>    
 <br><br>     
 
-#### [Resources & Materials](#resources) <br>
+#### [Resources and Materials](#resources-and-materials) <br>
     Github's Guidelines for setting up CONTRIBUTING.md    https://help.github.com/articles/setting-guidelines-for-repository-contributors/
     <br>
     Guidelines for non-code contributions to open source projects   https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code
@@ -118,5 +118,5 @@ Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to 
     <br>
 <br><br> 
 
-#### [Credits & Attribution](#credits) <br>
+#### [Credits and Attribution](#credits-and-attribution) <br>
 Hat-tip to the Atom and Open Government developers for their fabulous examples, the creators of Humans.txt, Github and Github's documentation, Mou, Dilliger, Bugzilla, Slidewinder, and the Working Open Guide (linked above). 
