@@ -17,7 +17,19 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [How to submit changes](changes) <br>
 #### [How to report a bug](bugreporting) <br>
 #### [Templates](templates) <br>
-
+#### [Where can I ask for help?](gethelp) <br>
+A nice extension to the previous section, with links to good comms channels for anyone with questions.
+#### [First bugs for Contributors](firstbugs) <br>
+#### [How to request an "enhancement"](enhancements) <br>    
+#### [Style Guide / Coding conventions](stylecoding) <br>
+#### [Code of Conduct](conduct) <br>
+#### [Recognition model](recognition) <br>
+#### [Who is involved?](primarycontributors) <br>
+#### [Where can I ask for help?](gethelp) <br>    
+#### [Rewards System](rewards) <br>    
+#### [Glossary](glossary) <br>
+#### [Resources & Materials](resources) <br>
+#### [Credits & Attribution](credits) <br>
 
 <br><br>    
 #### [Resources](#resources)
@@ -59,7 +71,7 @@ Sometimes it is helpful to provide some guidelines for the types of bugs contrib
 
 #### [How to request an "enhancement"](enhancements) <br>
 Enhancements are features that you might like to suggest to a project, but aren't necessarily bugs/problems with the existing code; there is a "label" for enhancments in Github's Issues (where you report bugs), so you can tag issues as "enhancement," and thereby allow contributors to prioritize issues/bugs reported to the project. See Atom's example section.
-    
+
 #### [Style Guide / Coding conventions](stylecoding) <br>
 See Atom's example.
 <br><br> 
@@ -76,21 +88,17 @@ Provide a pre-emptive "thank you" for contributing and list any recognition cont
 Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to have a more personal/friendly individual to attact to a project and reach out to with questions. You might list the core contributors and their preferred methods of contact here, or link to a humans.txt file in your root directory (same place as your CONTRIBUTING.md file), which lets people know who they are working. Here is an example of a humans.txt file.
 <br><br> 
 
-#### [Where can I ask for help?](gethelp) <br>
-A nice extension to the previous section, with links to good comms channels for anyone with questions.
-    
 #### [Rewards System](rewards) <br>
 (OPTIONAL) Include a humans.txt file to give accolades to contributors. Store this in your root directory just like your CONTRIBUTING.md. On deployment, it will be available via your website at www.YOURWEBSITE.com/humans.txt.
 <br>
 (OPTIONAL) Get a DOI for a your project and make Contributor Badges as a way to recognize contributors for their particular contributions.
 <br>
     Hat-tip or thank people in your README.md, especially if you forked their repo. Thank people when they submit issues or requests; be polite. 
-    
-#### [Glossary](glossary) <br>
-    
-<br><br>     
-####[Resources & Materials](resources) <br>
 
+#### [Glossary](glossary) <br>    
+<br><br>     
+
+#### [Resources & Materials](resources) <br>
     Github's Guidelines for setting up CONTRIBUTING.md    https://help.github.com/articles/setting-guidelines-for-repository-contributors/
     <br>
     Guidelines for non-code contributions to open source projects   https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code
@@ -106,5 +114,4 @@ A nice extension to the previous section, with links to good comms channels for 
 <br><br> 
 
 #### [Credits & Attribution](credits) <br>
-
 Hat-tip to the Atom and Open Government developers for their fabulous examples, the creators of Humans.txt, Github and Github's documentation, Mou, Dilliger, Bugzilla, Slidewinder, and the Working Open Guide (linked above). 
