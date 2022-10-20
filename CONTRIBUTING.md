@@ -15,6 +15,8 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [Testing](#testing) <br>
 #### [Environment Details](#environment) <br>
 #### [How to submit changes](changes) <br>
+#### [How to report a bug](bugreporting) <br>
+#### [Templates](templates) <br>
 
 
 <br><br>    
@@ -24,20 +26,26 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        bugs: issue tracker / bug report tool<br>
        comms: forum link, developer list, IRC/email<br>
 <br><br>    
-#### [Testing](#testing)<br>
+#### [Testing](#testing)
+<br>
 Description of how to test the project, where the tests are located in your directories.
 <br><br>    
-#### [Environment Details](#environment)<br>
+#### [Environment Details](#environment)
+<br>
 Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
 <br><br>   
-#### [How to submit changes](changes)<br>
+#### [How to submit changes](changes)
+<br>
 Describe change submission process : Pull Request protocol etc. 
 You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
 <br><br>    
-######How to report a bug 
+#### [How to report a bug](bugreporting)
+<br>
 Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
-    
-    ######Templates: in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
+<br><br>    
+#### [Templates](templates)
+<br>
+List the templates in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
     
     #**First bugs for Contributors:** Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
     
