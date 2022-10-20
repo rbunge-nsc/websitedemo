@@ -8,23 +8,31 @@
 We are eager for contributions and happy you found your way here.<br><br>
     
 ### [Table of Contents](#toc)<br><br>
-#### [Resources](#resources)
 If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs).
+
+#### [Resources](#resources) <br>
+#### [Testing](#testing)<br>
+#### [Environment Details](#environment)<br>
+#### [How to submit changes](changes)<br>
+
+
 <br><br>    
-
 #### [Resources](#resources)
-
+<br>
        docs: handbook / roadmap (you'll learn more about this in the roadmapping session)
        bugs: issue tracker / bug report tool
        comms: forum link, developer list, IRC/email
-    
-######[Testing]
-How to test the project, where the tests are located in your directories.
-    
-    ######Environment details:** how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
-   
-    ######How to submit changes:** Pull Request protocol etc. You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
-    
+<br><br>    
+#### [Testing](#testing)<br>
+Description of how to test the project, where the tests are located in your directories.
+<br><br>    
+#### [Environment Details](#environment)<br>
+Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
+<br><br>   
+#### [How to submit changes](changes)<br>
+Describe change submission process : Pull Request protocol etc. 
+You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
+<br><br>    
 ######How to report a bug 
 Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
     
