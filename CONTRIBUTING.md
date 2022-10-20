@@ -14,7 +14,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [Resources](#resources) <br>
 #### [Testing](#testing) <br>
 #### [Environment](#environment) <br>
-#### ["How to submit changes"](#changes) <br>
+#### [How to submit changes](#changes) <br>
 #### [How to report a bug](#bugreporting) <br>
 #### [Templates](#templates) <br>
 #### [Where can I ask for help?](#gethelp) <br>
@@ -34,8 +34,11 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [Resources](#resources)
 <br>
        docs: handbook / roadmap (you'll learn more about this in the roadmapping session) <br>
+       
        bugs: issue tracker / bug report tool <br>
+       
        comms: forum link, developer list, IRC/email <br>
+       My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
 <br> <br>    
 
 #### [Testing](#testing)
@@ -48,7 +51,7 @@ Description of how to test the project, where the tests are located in your dire
 Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
 <br><br>   
 
-#### [How to submit changes](#changes)
+#### [How to submit changes](#how-to-submit-changes)
 <br>
 Describe change submission process : Pull Request protocol etc. 
 You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
