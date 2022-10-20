@@ -13,7 +13,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 
 #### [Resources](#resources) <br>
 #### [Testing](#testing) <br>
-#### [Environment Details](#environment) <br>
+#### [Environment](#environment) <br>
 #### [How to submit changes](#changes) <br>
 #### [How to report a bug](#bugreporting) <br>
 #### [Templates](#templates) <br>
@@ -43,7 +43,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 Description of how to test the project, where the tests are located in your directories.
 <br><br>    
 
-#### [Environment Details](#environment)
+#### [Environment](#environment)
 <br>
 Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
 <br><br>   
