@@ -42,7 +42,8 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        comms: forum link, developer list, IRC/email <br>
        My favorite search engine is [Duck Duck Go](https://duckduckgo.com) <br> 
 <br>
-### [Return to Top](#return-to-top) <br><br>
+### [Return to Top](#return-to-top) 
+<br><br>
 <br> 
 
 
