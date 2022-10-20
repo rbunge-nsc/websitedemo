@@ -7,7 +7,7 @@
 ######Welcome contributors to the Team 1 project for IT115 Fall 2022
 We are eager for contributions and happy you found your way here.
     
-######Table of Contents
+######[Table of Contents](#Table of Contents)
 If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs).
     
 ######[Resources](#resources)
