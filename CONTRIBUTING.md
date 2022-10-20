@@ -7,7 +7,7 @@
 # Welcome contributors to the Team 1 project for IT115 Fall 2022 <br>
 We are eager for contributions and happy you found your way here. <br><br>
     
-### Table of Contents{#table-of-contents} <br><br>
+### Table of Contents <br><br>
 - [Resources](#resources) 
 - [Testing](#testing) 
 - [Environment](#environment) 
@@ -36,8 +36,6 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        
        comms: forum link, developer list, IRC/email <br>
        My favorite search engine is [Duck Duck Go](https://duckduckgo.com) <br> 
-<br>
-
 <br><br>
 <br> 
 
@@ -50,11 +48,11 @@ Description of how to test the project, where the tests are located in your dire
 <br>
 <br>    
 
-#### Environment {#environment}
+#### [Environment](#environment)
 <br>
 Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
 <br>
-### [Table of Contents](#table-of-contents) 
+[Table of Contents](#table-of-contents) 
 <br><br>
 <br>   
 
