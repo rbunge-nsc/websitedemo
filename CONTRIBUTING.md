@@ -7,28 +7,26 @@
 # Welcome contributors to the Team 1 project for IT115 Fall 2022 <br>
 We are eager for contributions and happy you found your way here. <br><br>
     
-### Table of Contents {#table-of-contents} <br><br>
-If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs). 
+### [Table of Contents](#table-of-contents) <br><br>
+- [Resources](#resources) 
+- [Testing](#testing) 
+- [Environment](#environment) 
+- [How to submit changes](#how-to-submit-changes) 
+- [How to report a bug](#how-to-report-a-bug) 
+- [Templates](#templates) 
+- [First bugs for Contributors](#first-bugs-for-contributors) 
+- [How to request an enhancement](#how-to-request-an-enhancement)    
+- [Style Guide and Coding conventions](#style-guide-and-coding-conventions)
+- [Code of Conduct](#code-of-conduct) 
+- [Recognition model](#recognition-model) 
+- [Core Contributors](#core-contributors) 
+- [Get help](#get-help)     
+- [Rewards System](#rewards-system) 
+- [Glossary](#glossary) 
+- [Resources and Materials](#resources-and-materials) 
+- [Credits and Attribution](#credits-and-attribution) 
 <br><br>
-
-#### [Resources](#resources) <br>
-#### [Testing](#testing) <br>
-#### [Environment](#environment) <br>
-#### [How to submit changes](#how-to-submit-changes) <br>
-#### [How to report a bug](#how-to-report-a-bug) <br>
-#### [Templates](#templates) <br>
-#### [First bugs for Contributors](#first-bugs-for-contributors) <br>
-#### [How to request an enhancement](#how-to-request-an-enhancement) <br>    
-#### [Style Guide and Coding conventions](#style-guide-and-coding-conventions) <br>
-#### [Code of Conduct](#code-of-conduct) <br>
-#### [Recognition model](#recognition-model) <br>
-#### [Core Contributors](#core-contributors) <br>
-#### [Get help](#get-help) <br>    
-#### [Rewards System](#rewards-system) <br>    
-#### [Glossary](#glossary) <br>
-#### [Resources and Materials](#resources-and-materials) <br>
-#### [Credits and Attribution](#credits-and-attribution) <br>
-
+If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs). 
 <br><br>    
 #### Resources {#resources}
 <br>
@@ -48,7 +46,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 <br>
 Description of how to test the project, where the tests are located in your directories.
 <br>
-### [Table of Contents](#table-of-contents) <br>
+### Return to TOC {#table-of-contents} <br>
 <br>
 <br>    
 
