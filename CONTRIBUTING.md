@@ -1,3 +1,4 @@
+### [Return to Top](#return-to-top) <br><br>
 # This file is for:<br><br>
 
 **Project owners:**  Creators and maintiners of the file<br>
@@ -40,7 +41,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        comms: forum link, developer list, IRC/email <br>
        My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
 <br> 
-### [Table of Contents](#table-of-contents)<br><br>
+### [Return to Top](#return-to-top) <br><br>
 <br> 
 
 
@@ -48,7 +49,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 <br>
 Description of how to test the project, where the tests are located in your directories.
 <br>
-### [Table of Contents](#table-of-contents)<br><br>
+### [Table of Contents](#table-of-contents) <br><br>
 <br>    
 
 #### [Environment](#environment)
