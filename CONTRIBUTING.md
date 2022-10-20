@@ -17,9 +17,9 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [How to submit changes](#how-to-submit-changes) <br>
 #### [How to report a bug](#how-to-report-a-bug) <br>
 #### [Templates](#templates) <br>
-#### [Where can I ask for help?](#where-can-i-ask-for-help) <br>
+#### [Get Help](#get-help) <br>
 #### [First bugs for Contributors](#first-bugs-for-contributors) <br>
-#### [How to request an "enhancement"](#how-to-request-an-enhancement) <br>    
+#### [How to request an enhancement](#how-to-request-an-enhancement) <br>    
 #### [Style Guide / Coding conventions](#style-guide-/-coding-conventions) <br>
 #### [Code of Conduct](#code-of-conduct) <br>
 #### [Recognition model](#recognition-model) <br>
@@ -67,14 +67,14 @@ Bugs are problems in code, in the functionality of an application or in its UI d
 List the templates in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
 <br><br> 
 
-#### [Where can I ask for help?](#where-can-i-ask-for-help) <br>
+#### [Get Help](#get-help) <br>
 A nice extension to the previous section, with links to good comms channels for anyone with questions.
 
 #### [First bugs for Contributors](#first-bugs-for-contributors) <br>
 Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
 <br><br> 
 
-#### [How to request an "enhancement"](#how-to-request-an-enhancement) <br>
+#### [How to request an enhancement](#how-to-request-an-enhancement) <br>
 Enhancements are features that you might like to suggest to a project, but aren't necessarily bugs/problems with the existing code; there is a "label" for enhancments in Github's Issues (where you report bugs), so you can tag issues as "enhancement," and thereby allow contributors to prioritize issues/bugs reported to the project. See Atom's example section.
 
 #### [Style Guide / Coding conventions](#style-guide-/-coding-conventions) <br>
