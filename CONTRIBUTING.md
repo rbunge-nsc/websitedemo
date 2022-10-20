@@ -12,9 +12,9 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 <br><br>
 
 #### [Resources](#resources) <br>
-#### [Testing](#testing)<br>
-#### [Environment Details](#environment)<br>
-#### [How to submit changes](changes)<br>
+#### [Testing](#testing) <br>
+#### [Environment Details](#environment) <br>
+#### [How to submit changes](changes) <br>
 
 
 <br><br>    
