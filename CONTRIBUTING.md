@@ -1,27 +1,32 @@
-#**This file is for:**
+###This file is for:
 
     Project owners - creators and maintiners of the file
     Project contributors - users of the file who want to know items they're welcome to tackle, and tact they need in navigating the project/respecting those involved with the project
     Project consumers - users who want to build off the project to create their own project
 
-    #**Welcome contributors to the project:** Admit that you are eager for contributions and so happy they found themselves here.
+######Welcome contributors to the Team 1 project for IT115 Fall 2022
+We are eager for contributions and happy you found your way here.
     
-    #**Table of Contents:** If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs).
+######Table of Contents
+If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs).
     
-    #**Short Links to Important Resources:**
+######[Resources](#resources)
+
        docs: handbook / roadmap (you'll learn more about this in the roadmapping session)
        bugs: issue tracker / bug report tool
        comms: forum link, developer list, IRC/email
     
-    #**Testing:** how to test the project, where the tests are located in your directories.
+######[Testing]
+How to test the project, where the tests are located in your directories.
     
-    #**Environment details:** how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
+    ######Environment details:** how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
    
-    #**How to submit changes:** Pull Request protocol etc. You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
+    ######How to submit changes:** Pull Request protocol etc. You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
     
-    #**How to report a bug:** Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
+######How to report a bug 
+Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
     
-    #**Templates:** in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
+    ######Templates: in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
     
     #**First bugs for Contributors:** Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
     
