@@ -1,9 +1,9 @@
 # This file is for:<br>
 
-Project owners - creators and maintiners of the file<br>
-Project contributors - users of the file who want to know items they're welcome to tackle,
+**Project owners** - creators and maintiners of the file<br>
+**Project contributors** - users of the file who want to know items they're welcome to tackle,
 and tact they need in navigating the project/respecting those involved with the project <br>
-Project consumers - users who want to build off the project to create their own project<br><br>
+**Project consumers** - users who want to build off the project to create their own project<br><br>
 
 # Welcome contributors to the Team 1 project for IT115 Fall 2022<br>
 We are eager for contributions and happy you found your way here.<br><br>
