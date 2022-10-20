@@ -1,5 +1,3 @@
-### Return to Top {#return-to-top} <br><br>
-
 # This file is for: <br><br>
 
 **Project owners:**  Creators and maintiners of the file <br>
@@ -41,7 +39,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        comms: forum link, developer list, IRC/email <br>
        My favorite search engine is [Duck Duck Go](https://duckduckgo.com) <br> 
 <br>
-### [Return to Top](#return-to-top) 
+
 <br><br>
 <br> 
 
