@@ -39,59 +39,88 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        
        comms: forum link, developer list, IRC/email <br>
        My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
-<br> <br>    
+<br> 
+### [Table of Contents](#toc)<br><br>
+<br> 
+
 
 #### [Testing](#testing)
 <br>
 Description of how to test the project, where the tests are located in your directories.
-<br><br>    
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>    
 
 #### [Environment](#environment)
 <br>
 Description of how to set up your development environment. This might exist in the README.md depending on the project. If so, include a link.
-<br><br>   
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>   
 
 #### [How to submit changes](#how-to-submit-changes)
 <br>
 Describe change submission process : Pull Request protocol etc. 
 You might also include what response they'll get back from the team on submission, or any caveats about the speed of response.
-<br><br>    
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>    
 
 #### [How to report a bug](#How-to-report-a-bug)
 <br>
 Bugs are problems in code, in the functionality of an application or in its UI design; you can submit them through "bug trackers" and most projects invite you to do so, so that they may "debug" with more efficiency and the input of a contributor. Take a look at Atom's example for how to teach people to report bugs to your project.
-<br><br>    
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>    
 
 #### [Templates](#templates)
 <br>
 List the templates in this section of your file, you might also want to link to a bug report "template" like this one here which contributors can copy and add context to; this will keep your bugs tidy and relevant.
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Get Help](#get-help) <br>
 A nice extension to the previous section, with links to good comms channels for anyone with questions.
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>
 
 #### [First bugs for Contributors](#first-bugs-for-contributors) <br>
 Sometimes it is helpful to provide some guidelines for the types of bugs contributors should tackle (should they want to fix the bugs and not just submit them), see Atom's example section here.
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [How to request an enhancement](#how-to-request-an-enhancement) <br>
 Enhancements are features that you might like to suggest to a project, but aren't necessarily bugs/problems with the existing code; there is a "label" for enhancments in Github's Issues (where you report bugs), so you can tag issues as "enhancement," and thereby allow contributors to prioritize issues/bugs reported to the project. See Atom's example section.
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>
 
 #### [Style Guide / Coding conventions](#style-guide-/-coding-conventions) <br>
 See Atom's example.
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Code of Conduct](#code-of-conduct) <br>
 You can make this part of CONTRIBUTING.md as Atom did to set the tone for contributions. You can also make this a separate Markdown file and link to it in CONTRIBUTING.md. You can also extend this section to link to your LICENSE.md or any details for project consumers on permissions and license details you have established for building on your work.
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Recognition model](#recognition-model) <br>
 Provide a pre-emptive "thank you" for contributing and list any recognition contributors might receive for participating in your project.<br><br> 
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Core Contributors](#core-contributors) <br>
 Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to have a more personal/friendly individual to attact to a project and reach out to with questions. You might list the core contributors and their preferred methods of contact here, or link to a humans.txt file in your root directory (same place as your CONTRIBUTING.md file), which lets people know who they are working. Here is an example of a humans.txt file.
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Rewards System](#rewards-system) <br>
 (OPTIONAL) Include a humans.txt file to give accolades to contributors. Store this in your root directory just like your CONTRIBUTING.md. On deployment, it will be available via your website at www.YOURWEBSITE.com/humans.txt.
@@ -99,9 +128,15 @@ Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to 
 (OPTIONAL) Get a DOI for a your project and make Contributor Badges as a way to recognize contributors for their particular contributions.
 <br>
     Hat-tip or thank people in your README.md, especially if you forked their repo. Thank people when they submit issues or requests; be polite. 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>
+
 
 #### [Glossary](#glossary) <br>    
-<br><br>     
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>     
 
 #### [Resources and Materials](#resources-and-materials) <br>
     Github's Guidelines for setting up CONTRIBUTING.md    https://help.github.com/articles/setting-guidelines-for-repository-contributors/
@@ -116,7 +151,12 @@ Open Government's CONTRIBUTING.md has as a name/author, and it might be nice to 
     <br>
     Open Government's CONTRIBUTING.md   https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md
     <br>
-<br><br> 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br> 
 
 #### [Credits and Attribution](#credits-and-attribution) <br>
 Hat-tip to the Atom and Open Government developers for their fabulous examples, the creators of Humans.txt, Github and Github's documentation, Mou, Dilliger, Bugzilla, Slidewinder, and the Working Open Guide (linked above). 
+<br>
+### [Table of Contents](#toc)<br><br>
+<br>
