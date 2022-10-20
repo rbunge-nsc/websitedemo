@@ -1,15 +1,18 @@
-###This file is for:
+### This file is for:<br>
 
-    Project owners - creators and maintiners of the file
-    Project contributors - users of the file who want to know items they're welcome to tackle, and tact they need in navigating the project/respecting those involved with the project
-    Project consumers - users who want to build off the project to create their own project
+Project owners - creators and maintiners of the file<br>
+Project contributors - users of the file who want to know items they're welcome to tackle,<br> 
+and tact they need in navigating the project/respecting those involved with the project<br>
+Project consumers - users who want to build off the project to create their own project<br><br>
 
-######Welcome contributors to the Team 1 project for IT115 Fall 2022
-We are eager for contributions and happy you found your way here.
+######Welcome contributors to the Team 1 project for IT115 Fall 2022<br>
+We are eager for contributions and happy you found your way here.<br><br>
     
-######[Table of Contents](#Table of Contents)
+######[Table of Contents](#toc)<br><br>
+######[Resources](#resources)
 If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs).
-    
+<br><br>    
+
 ######[Resources](#resources)
 
        docs: handbook / roadmap (you'll learn more about this in the roadmapping session)
