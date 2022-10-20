@@ -42,11 +42,11 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 <br> 
 
 
-#### Testing {#testing}
+#### [Testing](#testing)
 <br>
 Description of how to test the project, where the tests are located in your directories.
 <br>
-### Return to TOC {#table-of-contents} <br>
+### [Return to TOC](#table-of-contents) <br>
 <br>
 <br>    
 
