@@ -25,7 +25,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
        docs: handbook / roadmap (you'll learn more about this in the roadmapping session)<br>
        bugs: issue tracker / bug report tool<br>
        comms: forum link, developer list, IRC/email<br>
-<br><br>    
+<br> <br>    
 #### [Testing](#testing)
 <br>
 Description of how to test the project, where the tests are located in your directories.
