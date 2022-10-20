@@ -7,7 +7,7 @@
 # Welcome contributors to the Team 1 project for IT115 Fall 2022 <br>
 We are eager for contributions and happy you found your way here. <br><br>
     
-### Table of Contents {#table-of-contents} <br><br>
+### Table of Contents{#table-of-contents} <br><br>
 - [Resources](#resources) 
 - [Testing](#testing) 
 - [Environment](#environment) 
