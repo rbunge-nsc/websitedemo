@@ -14,7 +14,7 @@ If your CONTRIBUTING.md file is long, you might consider including a table of co
 #### [Resources](#resources) <br>
 #### [Testing](#testing) <br>
 #### [Environment](#environment) <br>
-#### [How to submit changes](#changes) <br>
+#### ["How to submit changes"](#changes) <br>
 #### [How to report a bug](#bugreporting) <br>
 #### [Templates](#templates) <br>
 #### [Where can I ask for help?](#gethelp) <br>
