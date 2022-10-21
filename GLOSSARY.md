@@ -45,95 +45,94 @@ The phonebook of the Internet. Humans access information online through domain n
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
 
-#### [E](#e)
+### [E](#e)
 <br> 
 <br>
 
-#### [F](#f)
+### [F](#f)
 <br>
 <br>
 
-#### [G](#g)
+### [G](#g)
 <br>
-<br>
-<br>
-<br>
-
-#### [H](#h)
-<br> 
 <br>
 <br>
 <br>
 
-#### [I](#i)
+### [H](#h)
 <br> 
 <br>
 <br>
 <br>
 
-#### [J](#j)
+### [I](#i)
+<br> 
+<br>
+<br>
+<br>
+
+### [J](#j)
 <br>
 <br>
 <br>
 <br>
 
-#### [K](#k)
+### [K](#k)
 <br>
 <br>
 <br>
 <br>
 
-#### [L](#l)
+### [L](#l)
 <br>
 <br>
 <br>
 <br>
 
-#### [M](#m)
+### [M](#m)
 <br>
 <br>
 <br>
 <br>
 
-#### [N](#n)
+### [N](#n)
 <br>
 <br>
 <br>
 <br>
 
-#### [O](#o)
+### [O](#o)
 <br>
 <br>
 <br>
 <br>
 
-#### [P](#p)
+### [P](#p)
 <br>
 <br>
 <br>
 <br>
 
-#### [Q](#q)
+### [Q](#q)
 <br>
 <br>
 <br>
 <br>
 
-#### [R](#r)
+### [R](#r)
 <br>
 <br>
 <br>
 <br>
 
-#### [S](#s)
+### [S](#s)
 <br>
 <br>
 <br>
 <br>
 
-#### [T](#t)
-<br>
-***TRACERT - Trace Route***:   
+### [T](#t)
+#### TRACERT - Trace Route   
 A command-line utility that you can use to trace the path that an Internet Protocol (IP) packet takes to its destination.
 https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows-e643d72b-2f4f-cdd6-09a0-fd2989c7ca8e
 <br>
@@ -141,15 +140,14 @@ https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp
 <br>
 <br>
 
-#### [U](#u)
+### [U](#u)
 <br>
 <br>
 <br>
 <br>
 
-#### [V](#v)
-<br>
-***VPC - Virtual Private Cloud***:  
+### [V](#v)
+#### VPC - Virtual Private Cloud  
 A Virtual Private Cloud (VPC) allows you to virtually create a private and isolated network in the cloud.
 provides secure data transfer between a private enterprise and a public cloud provider.
 https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
@@ -158,7 +156,8 @@ A VPC, as an elastic cloud service, focuses more on hosting/providing full contr
 https://blog.serverhub.com/whats-the-difference-between-a-vpc-and-a-vpn-the-definitive-answer/
 <br>
 <br>
-***VPN - Virtual Private Network***:
+
+#### VPN - Virtual Private Network
 A virtual private network (VPN) provides secure data transfer over the public Internet.
 https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
 <br>
@@ -174,25 +173,25 @@ https://blog.serverhub.com/whats-the-difference-between-a-vpc-and-a-vpn-the-defi
 <br>
 <br>
 
-#### [W](#w)
+### [W](#w)
 <br>
 <br>
 <br>
 <br>
 
-#### [X](#x)
+### [X](#x)
 <br>
 <br>
 <br>
 <br>
 
-#### [Y](#y)
+### [Y](#y)
 <br>
 <br>
 <br>
 <br>
 
-#### [Z](#z)
+### [Z](#z)
 <br>
 <br>
 <br>
