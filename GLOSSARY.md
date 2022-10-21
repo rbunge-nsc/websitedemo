@@ -25,38 +25,23 @@
 - [X](#x) 
 - [Y](#y) 
 - [Z](#z)
-<br>
-<br><br>    
-#### [A](#a) 
-<br>
-<br>
+<br><br>   
+#### [A](#a)
 <br>
 #### [B](#b)
 <br>
-<br>
-<br>
 #### [C](#c)
-<br>
-<br>
 <br>
 #### [D](#d)
 <br>
-####DNS - Domain Name System
+**DNS - Domain Name System**
 <br>
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
-<br>
-<br>
 #### [E](#e)
 <br> 
-<br>
-<br>
-<br>
 #### [F](#f)
-<br>
-<br>
-<br>
 <br>
 #### [G](#g)
 <br>
