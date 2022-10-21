@@ -41,7 +41,7 @@
 ### [D](#d)
 
 #### Distributed System
-A collection of seperate and independent software or hardware components called nodes that are linked together by means of a network in order to gather coherently by coordinating and communicating by message passing by events to fulfill one end goal. 
+A collection of seperate and independent software or hardware components called nodes that are linked together by means of a network in order to gather coherently by coordinating and communicating by message passing by events to fulfill one end goal. Not a client server model. No shared clocks.  Each element in the distributed system has to have its own processor. No shared memory in the distributed system and states are distributed throughout the system.  Concurrency - software and hardware are autonomous and execute concurrently.  Heterogeneity and copy - the processors are seperate and independent of each other and have their own speed.  Design for failure when designing a distributed system.
 https://www.youtube.com/watch?v=ajjOEltiZm4
 <br>
 
@@ -51,6 +51,8 @@ https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
 
 ### [E](#e)
+
+### Event Driven Architecture
 <br> 
 <br>
 
