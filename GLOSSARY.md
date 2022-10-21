@@ -27,13 +27,7 @@
 <br>
 
 
-### Table of Contents <br><br>
-- [Resources](#resources) 
-- [Testing](#testing) 
-<br><br>    
-#### [Resources](#resources)
-<br>
-
+### Table of Contents
 <br><br>    
 #### [A](#a) 
 <br>
@@ -50,6 +44,7 @@
 #### [D](#d)
 <br>
 ***DNS - Domain Name System***
+<br>
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
@@ -133,6 +128,7 @@ https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 #### [T](#t)
 <br>
 ***TRACERT - Trace Route***
+<br>
 A command-line utility that you can use to trace the path that an Internet Protocol (IP) packet takes to its destination.
 https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows-e643d72b-2f4f-cdd6-09a0-fd2989c7ca8e
 <br>
@@ -147,19 +143,22 @@ https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp
 #### [V](#v)
 <br>
 ***VPC - Virtual Private Cloud***
+<br>
 A Virtual Private Cloud (VPC) allows you to virtually create a private and isolated network in the cloud.
 provides secure data transfer between a private enterprise and a public cloud provider.
 https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
-
+<br>
 A VPC, as an elastic cloud service, focuses more on hosting/providing full control over a company-websites, with automatic scale for traffic requirements and unbounded hardware limitations.
 https://blog.serverhub.com/whats-the-difference-between-a-vpc-and-a-vpn-the-definitive-answer/
-
+<br>
+<br>
 ***VPN - Virtual Private Network***
+<br>
 A virtual private network (VPN) provides secure data transfer over the public Internet.
 https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
-
+<br>
 VPNs mainly facilitate the public-resources reach to users in private.
-
+<br>
 They also can:
 - Encapsulate your data in an encrypted tunnel to secure your internet connection
 - Give you the advantage of Internet privacy
