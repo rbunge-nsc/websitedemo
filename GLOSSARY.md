@@ -30,14 +30,17 @@
 <br>
 apple
 <br>
+
 #### [B](#b)
 <br>
 apple
 <br>
+
 #### [C](#c)
 <br>
 apple
 <br>
+
 #### [D](#d)
 <br>
 **DNS - Domain Name System**
@@ -45,14 +48,17 @@ apple
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
+
 #### [E](#e)
 <br> 
 apple
 <br>
+
 #### [F](#f)
 <br>
 apple
 <br>
+
 #### [G](#g)
 <br>
 <br>
