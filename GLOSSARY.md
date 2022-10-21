@@ -1,4 +1,4 @@
-### Table of Contents <br>
+## Table of Contents <br>
 - [A](#a) 
 - [B](#b) 
 - [C](#c) 
@@ -26,22 +26,21 @@
 - [Y](#y) 
 - [Z](#z)
 <br><br>   
-#### [A](#a)
+### [A](#a)
 <br>
 <br>
 
-#### [B](#b)
+### [B](#b)
 <br>
 <br>
 
-#### [C](#c)
+### [C](#c)
 <br>
 <br>
 
-#### [D](#d)
+### [D](#d)
 
 #### DNS - Domain Name System
-<br>
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
 <br>
