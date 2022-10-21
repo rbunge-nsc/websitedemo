@@ -39,7 +39,7 @@
 <br>
 
 #### [D](#d)
-<br>
+
 ###### DNS - Domain Name System
 <br>
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
