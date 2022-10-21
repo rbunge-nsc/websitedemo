@@ -1,5 +1,4 @@
-- [A](#a) 
-- [B](#b) 
+- [A](#a) - [B](#b)- [C](#c) - [D](#d)- [E](#e) - [F](#f)- [G](#g) - [H](#h)- [I](#i) - [J](#j)- [K](#k) - [L](#l)- [M](#m) - [N](#n)- [O](#o) - [P](#p) - [Q](#q) - [R](#r)- [S](#s) - [T](#t)- [U](#u) - [V](#v)- [W](#w) - [X](#x)- [Y](#y) - [Z](#z)
 
 
 
@@ -10,154 +9,205 @@
 <br>
 ### ###
 <br>
-
+<br>
 #### [B](#b)
 <br>
 ##  ##
 <br>
 ### ###
 <br>
-
-
-## C ##
-
+<br>
+#### [C](#c)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## D ##
-
+<br>
+<br>
+#### [D](#d)
+<br>
 ### Domain Name System (DNS) ###
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
-
+<br>
 ### ###
-
-
-
-## E ##
-
+<br>
+<br>
+#### [E](#e)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## F ##
-
+<br>
+<br>
+#### [F](#f)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## G ##
-
+<br>
+<br>
+#### [G](#g)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## H ##
-
+<br>
+<br>
+#### [H](#h)
+<br>
+###  ###
+<br>
 ### ###
-
-
-## I ##
-
+<br>
+<br>
+#### [I](#i)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## J ##
-
+<br>
+<br>
+#### [J](#j)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## K ##
-
+<br>
+<br>
+#### [K](#k)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## L ##
-
+<br>
+<br>
+#### [L](#l)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## M ##
-
+<br>
+<br>
+#### [M](#m)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## N ##
-
+<br>
+<br>
+#### [N](#n)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## O ##
-
+<br>
+<br>
+#### [O](#o)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## P ##
-
+<br>
+<br>
+#### [P](#p)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## Q ##
-
+<br>
+<br>
+#### [Q](#q)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## R ##
-
+<br>
+<br>
+#### [R](#r)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## S ##
-
+<br>
+<br>
+#### [S](#s)
+<br>
+###  ###
+<br>
 ### ###
-
-
-
-## T ##
-
+<br>
+<br>
+#### [T](#t)
+<br>
 ### TRACERT (Trace Route) ###
 A command-line utility that you can use to trace the path that an Internet Protocol (IP) packet takes to its destination.
 https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows-e643d72b-2f4f-cdd6-09a0-fd2989c7ca8e
-
-
-## U ##
-
+<br>
+###  ###
+<br>
 ### ###
-
-
-## V ##
-
-###   ###
-
-
-## W ##
-
+<br>
+<br>
+#### [U](#u)
+<br>
+###  ###
+<br>
 ### ###
+<br>
+<br>
+#### [V](#v)
+<br>
+### VPC ###
+A Virtual Private Cloud (VPC) allows you to virtually create a private and isolated network in the cloud.
+provides secure data transfer between a private enterprise and a public cloud provider.
+https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
 
+A VPC, as an elastic cloud service, focuses more on hosting/providing full control over a company-websites, with automatic scale for traffic requirements and unbounded hardware limitations.
+https://blog.serverhub.com/whats-the-difference-between-a-vpc-and-a-vpn-the-definitive-answer/
 
+### VPN ###
+A virtual private network (VPN) provides secure data transfer over the public Internet.
+https://www.mulesoft.com/resources/cloud/what-is-virtual-private-cloud#:~:text=A%20Virtual%20Private%20Cloud%20(VPC)%20allows%20you%20to%20virtually%20create,and%20a%20public%20cloud%20provider.
 
-## X ##
+VPNs mainly facilitate the public-resources reach to users in private.
 
+They also can:
+- Encapsulate your data in an encrypted tunnel to secure your internet connection
+- Give you the advantage of Internet privacy
+- Offer you IP leak protection
+https://blog.serverhub.com/whats-the-difference-between-a-vpc-and-a-vpn-the-definitive-answer/
+<br>
+###  ###
+<br>
 ### ###
-
-
-## Y ##
-
+<br>
+<br>
+#### [W](#w)
+<br>
+###  ###
+<br>
 ### ###
-
-## Z ##
-
+<br>
+<br>
+#### [X](#x)
+<br>
+###  ###
+<br>
 ### ###
-
-
+<br>
+<br>
+#### [Y](#y)
+<br>
+###  ###
+<br>
+### ###
+<br>
+<br>
+#### [Z](#z)
+<br>
+###  ###
+<br>
+### ###
+<br>
+<br>
