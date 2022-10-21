@@ -25,9 +25,6 @@
 - [Y](#y) 
 - [Z](#z)
 <br>
-
-
-### Table of Contents
 <br><br>    
 #### [A](#a) 
 <br>
@@ -43,7 +40,7 @@
 <br>
 #### [D](#d)
 <br>
-***DNS - Domain Name System***
+####DNS - Domain Name System
 <br>
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
