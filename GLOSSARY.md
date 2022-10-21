@@ -40,6 +40,11 @@
 
 ### [D](#d)
 
+#### Distributed System
+A collection of seperate and independent software or hardware components called nodes that are linked together by means of a network in order to gather coherently by coordinating and communicating by message passing by events to fulfill one end goal. 
+https://www.youtube.com/watch?v=ajjOEltiZm4
+<br>
+
 #### DNS - Domain Name System
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com.
 https://www.stackpath.com/edge-academy/what-is-a-point-of-presence-pop/
