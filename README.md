@@ -39,4 +39,5 @@
 >	* List three main things you learned by doing this project.
 
 
-### Learn More about this project at our Github Pages website: https://joshg1224.github.io/It115-Group-3-Project/
+### Learn More about this project at our Github Pages website: 
+https://joshg1224.github.io/It115-Group-3-Project/
