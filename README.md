@@ -3,7 +3,7 @@
 ## Project Overview:
 
 > We will use a fork of [websitedemo](https://github.com/rbunge-nsc/websitedemo) as the seed code for our project.
-
+>
 > The point of this project is to get hands on experience using Git/Github by collaborating with a group to create and launch a website (by reuseing, editing, modifying, deleting, or doing anything we want to with the forked seed code). 
 
 ## Project Requirements:
