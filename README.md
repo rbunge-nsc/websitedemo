@@ -41,3 +41,7 @@
 
 ### Learn More about this project at our Github Pages website: 
 https://joshg1224.github.io/It115-Group-3-Project/
+## Bug Reports:
+Report bugs to your group's leader. Also, you can report bug here:
+
+https://canvas.seattlecolleges.edu/courses/8247/groups
