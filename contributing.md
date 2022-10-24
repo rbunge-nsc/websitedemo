@@ -21,4 +21,4 @@ Please note we have a code of conduct, please follow it in all your interactions
     -  Showing empathy towards other community members
 
 
- [Contributing Source](PurpleBooth/Good-CONTRIBUTING.md-template.md)
+ [Contributing Source](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
