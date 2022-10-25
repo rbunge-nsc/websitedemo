@@ -26,7 +26,15 @@ We are eager for contributions and happy you found your way here. <br><br>
 - [Resources and Materials](#resources-and-materials) 
 - [Credits and Attribution](#credits-and-attribution) 
 <br><br>
-If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs](#reporting-bugs). 
+If your CONTRIBUTING.md file is long, you might consider including a table of contents with links to different headings in your document. In github, each heading is given a URL by default, so you can link to that URL in the appropriate section of the Table of Contents for each heading. Do this in Markdown by wrapping the heading in [ ] and following with a parenthetical that includes the URL or header after # like [Reporting Bugs:Testers should deliver a buy description in a clear, structured format, making it easy for the developers to reproduce, understand, and fix the bug quickly.
+Table of contents:
+-Title
+-Bug severity and priority
+Description
+-Environment
+-Steps to reproduce
+- Expected result
+- (#reporting-bugs). 
 <br><br>    
 #### [Resources](#resources)
 <br>
