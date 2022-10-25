@@ -22,13 +22,13 @@
 ## Testing
 > ...This is where we can explain how we test code...
 
-## Bug Reporst
+## Bug Reports
 > ...This is where we can explain how to report a bug...
 
 ## Code of Conduct
 > ...This is where we can explain what to do and what not to do...
 
 ## License
-> Our project uses the MIT License
+> Our project uses the MIT License. It is one of the most popular open source licenses to choose from. For more info visit the [MIT License page.](https://choosealicense.com/licenses/mit/)
 
 
