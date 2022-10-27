@@ -5,6 +5,6 @@ If you find any bugs, please contact Eyob https://github.com/Eyob376
 
 For enhancement requests, contact Nahum https://github.com/NahumYanez
 
-For any inquiries or other questions, please contact Chris https://github.com/Killiest
+For any other inquiries or questions, please contact Chris https://github.com/Killiest
 
 Using Firefox (https://www.mozilla.org/en-US/firefox/new/) or Opera (https://www.opera.com/browsers/opera) is recommended for testing webpage code.
