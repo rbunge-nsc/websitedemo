@@ -1,10 +1,16 @@
 
 body {
-  background-color: linen;
+  background-color: black;
+  margin: 0;
+}
+
+p {
+  color: white;
 }
 
 h1 {
-  color: navy;
+  color: lightgray;
+  font-family: sans-serif;
 }
 
 img{
@@ -20,3 +26,47 @@ figcaption{
   text-align: left;
   margin-left: 50px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  height: 100%;
+  position: fixed;
+  background-color: lightslategray;
+  overflow: auto;
+  /*border:  1px solid #555;*/
+}
+
+li a {
+display: block;
+color: black;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li a.active {
+  background-color: black;
+  color: white;
+}
+
+
+li {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+div {
+  margin-left: 12%;
+  padding: 1px 16px;
+  height: 1000px;
+  text-align: center;
+}
+
