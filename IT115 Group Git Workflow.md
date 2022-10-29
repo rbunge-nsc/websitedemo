@@ -1,11 +1,11 @@
 Use this approach when sitting down to work on your project:
 
-[[#0. Check for any outstanding Pull Requests on Github.]]
-[[#1. Update your local repository.]]
-[[#2. Starting from the "main" branch, create a new feature branch for your changes.]]
-[[#3. Work on your files!]]
-[[#4. Commit your finalized changes on your branch and push them to Github.]]
-[[#5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.]]
+[0. Check for any outstanding Pull Requests on Github.](# 0. Check for any outstanding Pull Requests on Github.)
+[1. Update your local repository.](# 1. Update your local repository.)
+[2. Starting from the "main" branch, create a new feature branch for your changes.](# 2. Starting from the "main" branch, create a new feature branch for your changes.)
+[3. Work on your files!](# 3. Work on your files!)
+[4. Commit your finalized changes on your branch and push them to Github.](# 4. Commit your finalized changes on your branch and push them to Github.)
+[5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.](# 5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.)
 
 ---
 
@@ -20,7 +20,7 @@ This is the one of the big reasons you use git - we want to avoid making changes
 
 Use whatever tool you're most comfortable with to interact with git. The command-line instructions are below, but the verbs should be similar to what you'd find on a git GUI:
 
-```bash
+```console
 # make sure you're on main to start
 git status 
 # branch from main to your feature branch
@@ -39,7 +39,7 @@ All of these changes only exist on your feature branch, and none of them will be
 # 4. Commit your finalized changes on your branch and push them to Github.
 Now that you've done all of your work, you'll need to add all of the changed files to your commit, create a message for the commit, and push it to the remote repository.
 
-```bash
+```console
 # check which files have been modified
 git status
 # add your changed files to the new commit
@@ -54,5 +54,3 @@ Now when your teammates start back at step 1, they will pull down all of your ch
 
 # 5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.
 Use the same method that we used in earlier assignments. Add comments to describe what your proposed changes will do, as well as any outstanding issues or concerns. Teammates will check and confirm any outstanding pull requests before they sit down to work.
-
-#git #git-push #git-pull #branching #it115 
