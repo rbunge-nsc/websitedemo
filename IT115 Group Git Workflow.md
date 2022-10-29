@@ -1,11 +1,11 @@
 Use this approach when sitting down to work on your project:
 
-[0. Check for any outstanding Pull Requests on Github.](# 0. Check for any outstanding Pull Requests on Github.)
-[1. Update your local repository.](# 1. Update your local repository.)
-[2. Starting from the "main" branch, create a new feature branch for your changes.](# 2. Starting from the "main" branch, create a new feature branch for your changes.)
-[3. Work on your files!](# 3. Work on your files!)
-[4. Commit your finalized changes on your branch and push them to Github.](# 4. Commit your finalized changes on your branch and push them to Github.)
-[5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.](# 5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.)
+0. [Check for any outstanding Pull Requests on Github.](#0-check-for-any-outstanding-pull-requests-on-github)
+1. [Update your local repository.](#1-update-your-local-repository)
+2. [Starting from the "main" branch, create a new feature branch for your changes.](#2-starting-from-the-main-branch-create-a-new-feature-branch-for-your-changes)
+3. [Work on your files!](#3-work-on-your-files)
+4. [Commit your finalized changes on your branch and push them to Github.](#4-commit-your-finalized-changes-on-your-branch-and-push-them-to-github)
+5. [If your changes are finished and ready to be merged into "main", create a Pull Request on Github.](#5-if-your-changes-are-finished-and-ready-to-be-merged-into-main-create-a-pull-request-on-github)
 
 ---
 
