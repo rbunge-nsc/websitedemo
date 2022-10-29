@@ -7,25 +7,29 @@ body {
 }
 
 p {
-  color: white;
+  color: black;
   font-family: sans-serif;
   text-align: left;
-  margin-left: 12%;
+  margin-left: 13%;
 }
 
 h1 {
-  color: lightgray;
+  color: black;
   font-family: sans-serif;
   text-align: left;
-  margin-left: 12%;
+  margin-left: 13%;
+}
+
+h3 {
+  color: white;
 }
 
 img{
-  width:300px;
-  height:200px;
-  /* border:10px solid green; */
-  color:white;
-  border-radius:20px;
+  height:100px;
+  margin-left: 12%;
+  margin-top: 5%;
+  
+
 }
 
 figcaption{
@@ -71,10 +75,10 @@ li {
 
 
 div {
-  margin-left: 0px;
+  margin-left: 0;
   padding: 1px 16px;
-  height: 200px;
-  text-align: center;
+  height: 300px;
+  text-align: left;
 }
 
 
