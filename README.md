@@ -12,7 +12,7 @@
 - [x] **README.md** 
 - [ ] **CONTRIBUTING.md** 
 - [ ] **Project Page** (Github Pages Website)
-- [ ] **Bug Reports Project Board** 
+- [X] **Bug Reports Project Board** 
 - [ ] **Super-linter Workflow** 
 - [ ] **All Project Pages and Assets** (Our Production Website) 
 - [ ] **Launch Our Website** (Deploy code to server)
