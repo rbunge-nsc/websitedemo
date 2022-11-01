@@ -1,14 +1,13 @@
+<!-- omit in toc -->
 # IT115 Group Git Workflow
+<!-- omit in toc -->
 ## Team 1
-John O'Hara, Karen Petersen, Alya Ahmed, Damion Gray
+**John O'Hara, Karen Petersen, Alya Ahmed, Damion Gray**
 
 If you are just getting started, follow [these instructions](#setting-up-a-local-repository) to get a local repository on your machine.
 
 Use this approach when sitting down to work on your project:
 
-- [IT115 Group Git Workflow](#it115-group-git-workflow)
-  - [Team 1](#team-1)
-- [Setting up A Local Repository](#setting-up-a-local-repository)
 - [0. Check for any outstanding Pull Requests on Github.](#0-check-for-any-outstanding-pull-requests-on-github)
 - [1. Update your local repository.](#1-update-your-local-repository)
 - [2. Starting from the "main" branch, create a new feature branch for your changes.](#2-starting-from-the-main-branch-create-a-new-feature-branch-for-your-changes)
@@ -16,6 +15,7 @@ Use this approach when sitting down to work on your project:
 - [4. Commit your finalized changes on your branch and push them to Github.](#4-commit-your-finalized-changes-on-your-branch-and-push-them-to-github)
 - [5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.](#5-if-your-changes-are-finished-and-ready-to-be-merged-into-main-create-a-pull-request-on-github)
 
+<!-- omit in toc -->
 # Setting up A Local Repository
 I have found it easiest to setup a local repository using `gh`, the Github command line tool. While the same functionality can be achieved by using `git`, I've found that certain commands such as cloning and syncing are a little simpler while using `gh`.
 
