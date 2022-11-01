@@ -56,13 +56,13 @@ git push --set-upstream origin my-feature-branch-name
 # 3. Work on your files!
 Make whatever changes you need to do on your files using a text editor such as VS Code. Make sure you're saving your changes as you go. 
 
-![VS Code Screenshot](/images/it115-a5-vscode.png)
+![VS Code Screenshot](./images/it115-a5-vscode.png)
 
 All of these changes only exist on your feature branch, and none of them will be finalized until you commit the changes in the next step.
 
 As you are working, **be sure to preview the changes in a browser as you make them.** This ensures that your changes are having the desired results.
 
-![Browser results preview.](/images/it115-a5-test-locally.png)
+![Browser results preview.](./images/it115-a5-test-locally.png)
 
 Additional testing layers may be added via Github actions as our project grows more complex. These will be further documented as they are added.
 
