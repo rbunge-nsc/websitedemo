@@ -6,6 +6,10 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   color: black;
   font-family: sans-serif;
