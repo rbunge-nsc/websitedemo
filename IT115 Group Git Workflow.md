@@ -13,7 +13,6 @@ Use this approach when sitting down to work on your project:
 - [4. Commit your finalized changes on your branch and push them to Github.](#4-commit-your-finalized-changes-on-your-branch-and-push-them-to-github)
 - [5. If your changes are finished and ready to be merged into "main", create a Pull Request on Github.](#5-if-your-changes-are-finished-and-ready-to-be-merged-into-main-create-a-pull-request-on-github)
 
----
 # Setting up A Local Repository
 I have found it easiest to setup a local repository using `gh`, the Github command line tool. While the same functionality can be achieved by using `git`, I've found that certain commands such as cloning and syncing are a little simpler while using `gh`.
 
@@ -31,8 +30,6 @@ Using these instructions, you should have moved your working directory to where 
 # move the project directory to a new location
 mv Team1Project ../path/to/new/directory
 ```
-
----
 
 # 0. Check for any outstanding Pull Requests on Github.
 Make sure we're not waiting to finalize anyone's changes - if there are any that are ready to be merged in, you'll want to make sure that they are before you start working. This will help us avoid a redundant labor scenario.
