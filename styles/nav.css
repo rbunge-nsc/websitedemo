@@ -17,11 +17,11 @@ p {
 }
 
 img {
-  width:300px;
-  height:200px;
-  border:10px solid green;
-  color:white;
-  border-radius:20px;
+  width: 300px;
+  height: 200px;
+  border: 10px solid green;
+  color: white;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -29,7 +29,7 @@ figcaption {
   width: 315px;
   text-align: left;
   margin-left: 25px;
-  color:black;
+  color: black;
   font-style: italic;
   font-size: 30px;
 }
@@ -46,7 +46,8 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -54,7 +55,8 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: darkgrey;
 }
 
@@ -67,7 +69,6 @@ li.dropdown {
   position: absolute;
   background-color: wheat;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -84,5 +85,5 @@ li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-  display:  block;
+  display: block;
 }

@@ -1,5 +1,5 @@
 # IT115 Group 3 Class Project @ NSC
->...Below is a template I created using the class resources found in the assignment 4 canvas page...
+> ...Below is a template I created using the class resources found in the assignment 4 canvas page...
 
 ## Welcome
 > ...This is where we can put an introduction...
@@ -10,7 +10,7 @@
 > 2. Joshua Gillen
 > 3. Amna Khider
 > 4. Julyah G
-> 
+>
 > Behailu Abdulnasser Mohammed will be adding his name soon.
 
 ## Environment Details
@@ -30,5 +30,3 @@
 
 ## License
 > Our project uses the MIT License. It is one of the most popular open source licenses to choose from. For more info visit the [MIT License page.](https://choosealicense.com/licenses/mit/)
-
-
