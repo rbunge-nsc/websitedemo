@@ -114,7 +114,7 @@ padding-top: 2vh;">
 <center><div class="container"
 style="position: relative;
 width: 120vh;
-height: 85vh;
+height: 80vh;
 background: whitesmoke;
 box-sizing: border-box;
 border-radius: 10px;
@@ -129,29 +129,32 @@ box-sizing: border-box;
 border-radius: 10px;
 border-width: 15px;
 width: 89vh;
-height: 85vh;
+height: 80vh;
 float: left;
 text-align: left;
-padding-left: 6vh;
-padding-top: 2vh;">
-<h2 style="text-decoration: underline;">Overview </h2>
+padding-top: 1vh;">
 
-<p style="padding-right: 6vh;">The purpose of this tutorial will be to explore how to incorporate command-line git into your local workflow.</p>
-<ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 8vh; list-style-type: disc;">
-<li><p>I'll start this exploration with a brief overview of the software development tools I use in conjunction with GitHub (that make my workflow possible).</p></li>
 
-<li><p>Next, I'll briefly explain how to fork a repo, and elaborate on some the benifits of working locally from your own fork (later, I will also explore how to use the command line to keep your fork in sync and contribute back to the upstream repo).</p></li>
 
-<li><p>I'll continue by exploring how to set up your local repo from your fork and how to connect your local repo to your live GitHub repo all from the command line.</p></li>
+<h2 style="text-decoration: none; padding-right: 6vh; padding-left: 6vh">Tutorial Overview</h2>
+<hr style="color: dimgray;">
 
-<li><p>After this initial setup, I will explore the command line workflow for managing a project locally with git.</p></li>
+<h3 style="padding-right: 6vh; padding-left: 6vh;"><br>The purpose of this tutorial will be to explore how to incorporate command-line Git into your local workflow. I will demonstrate my workflow by building an html feature that will be pushed to a production repository. I will also test my work locally with super-linter from the the command-line using docker.</h3>
 
-<li><p>After implementing the code for a feature, I will examine how to test your code locally (both in broswer and by using Docker to run super-linter from the command lin) before pushing the code to GitHub.</p></li>
+<ul style="background-color: black; color: white; padding-left: 4vh;
+padding-right: 9vh; padding-left: 10vh; list-style-type: disc;">
 
-<li><p>And last but not least, I will explore how to use the command line to merge my local branch back into main.</p>
-</li>
-</ul>
+<li><p>I'll share the software development tools I use in conjunction with GitHub that make my workflow possible.</p></li>
 
+<li><p>I'll explore forking a repo that you want to contribute to.</p></li>
+
+<li><p>I'll explore how to set up a local environment to work with a GitHub repo.</p></li>
+
+<li><p>I'll explore the workflow for managing code edits and keeping your work in sync with GitHub. </p></li>
+
+<li><p>I'll explore how to test your code locally both in a browser and using docker to run super-linter</p></li>
+
+<li><p>I'll explore how to merge my code edits back to the production code on GitHub</p></li>
 	
 </div>
 
@@ -163,25 +166,26 @@ box-sizing: border-box;
 border-radius: 10px;
 border-width: 15px;
 width: 1vh;
-height: 85vh;
+height: 80vh;
 float: left;"></div>
 
 
-<div class="box" style="background: slategray;
+<div class="box" style="background: lightslategray;
 position: relative;
 display: inline-block;
 box-sizing: border-box;
 border-radius: 10px;
 border-width: 15px;
 width: 30vh;
-height: 85vh;
+height: 80vh;
 float: left;
 text-align: left;
-padding-left: 3vh;">
+padding-left: 3vh;
+padding-top: 2vh;">
 
-<h3><br>Table of Contents: </h3>
+<h3 style="color: black;">Table of Contents: </h3>
 
-<p>some content...</p>
+<p style="color: black;">some content...</p>
 
 </div>
 </div>
@@ -191,9 +195,8 @@ padding-left: 3vh;">
 
 <center>
 <div style="position: relative;
-padding-top: 1vh;
 width: 120vh;
-height: 12vh;
+height: 10vh;
 background: cornflowerblue;
 box-sizing: border-box;
 border-radius: 10px;
@@ -201,7 +204,7 @@ border-width: 15px;
 text-align: center;
 overflow: hidden;">
 
-<h1>stack </h1>
+<h1>Software Development Tools For Local GitHub Workflow</h1>
 
 </div>
 </center>
@@ -209,40 +212,408 @@ overflow: hidden;">
 <div style="height: 1vh;"></div>
 
 <center>
-<div style="position: relative;
+<div class="container"
+style="position: relative;
 width: 120vh;
-height: 50vh;
+height: 12vh;
 background: black;
 box-sizing: border-box;
 border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 1vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
 border-width: 15px;
+width: 15vh;
+height: 12vh;
+float: left;
+padding-top: 2vh;
+padding-left: 0vh;
 text-align: center;
 overflow: hidden;">
 
-<h2><br>stack </h2>
+<img style="z-index: 1; height: 5vh; width: 6vh; padding-top: 0vh;" src ="images/windows.png" alt="windows">
 
 </div>
-</center>
 
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 15vh;
+height: 12vh;
+float: left;
+padding-top: 2vh;
+padding-left: 0vh;
+text-align: left;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 5vh; width: 5vh; padding-top: 0vh;" src ="images/cmd.png" alt="cmd">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 2vh;">Windows OS and the built-in Windows Command-Line Shell. </p>
+
+</div>
+
+
+
+
+
+</div></center>
 
 <div style="height: 1vh;"></div>
 
-
 <center>
-<div style="position: relative;
+<div class="container"
+style="position: relative;
 width: 120vh;
-height: 50vh;
+height: 12vh;
 background: black;
 box-sizing: border-box;
 border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
 border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 0vh;
+padding-left: 0vh;
 text-align: center;
 overflow: hidden;">
 
-<h2><br>stack </h2>
+<img style="z-index: 1; height: 7vh; width: 7.5vh; padding-right: 4vh;" src ="images/github.png" alt="windows">
 
 </div>
-</center>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">GitHub account for managing and hosting repo. </p>
+
+</div>
+
+
+</div></center>
+
+<div style="height: 1vh;"></div>
+
+<center>
+<div class="container"
+style="position: relative;
+width: 120vh;
+height: 12vh;
+background: black;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 1vh;
+padding-left: 0vh;
+text-align: center;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/git.png" alt="windows">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">Command-line Git for version control from the terminal. </p>
+
+</div>
+</div></center>
+<div style="height: 1vh;"></div>
+
+<center>
+<div class="container"
+style="position: relative;
+width: 120vh;
+height: 12vh;
+background: black;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 1vh;
+padding-left: 0vh;
+text-align: center;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 7vh; width: 7vh; padding-right: 4vh;" src ="images/cli.png" alt="windows">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">GitHub CLI for managing GitHub from the terminal. </p>
+
+</div>
+</div></center>
+<div style="height: 1vh;"></div>
+
+<center>
+<div class="container"
+style="position: relative;
+width: 120vh;
+height: 12vh;
+background: black;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 1vh;
+padding-left: 0vh;
+text-align: center;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/sublime.png" alt="windows">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">Sublime text editor for code development. </p>
+
+</div>
+</div></center>
+<div style="height: 1vh;"></div>
+
+<center>
+<div class="container"
+style="position: relative;
+width: 120vh;
+height: 12vh;
+background: black;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 1vh;
+padding-left: 0vh;
+text-align: center;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/docker.png" alt="windows">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">Docker to test your code from the terminal using GitHub's super-linter. </p>
+
+</div>
+</div></center>
+<div style="height: 1vh;"></div>
+
+
+
+
+<center>
+<div class="container"
+style="position: relative;
+width: 120vh;
+height: 12vh;
+background: black;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 1vh;
+text-align: center;
+overflow: hidden;
+padding-top: 2vh;">
+
+
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 30vh;
+height: 12vh;
+float: left;
+padding-top: 1vh;
+padding-left: 0vh;
+text-align: center;
+overflow: hidden;">
+
+<img style="z-index: 1; height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/firefox.png" alt="windows">
+
+</div>
+
+<div class="box"
+style="background: black;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 10px;
+border-width: 15px;
+width: 88vh;
+height: 12vh;
+float: left;
+text-align: left;
+overflow: hidden;">
+
+<p style="padding-top: 1vh;">Mozilla firefox browser for testing code. </p>
+
+</div>
+</div></center>
+<div style="height: 1vh;"></div>
+
+
 
 <div style="height: 8vh;"></div>
 
