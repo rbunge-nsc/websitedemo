@@ -12,8 +12,8 @@
 - [x] **README.md**
 - [ ] **CONTRIBUTING.md**
 - [ ] **Project Page** (GitHub Pages site)
-- [ ] **Bug Reports Project Board**
-- [ ] **Super-linter Workflow**
+- [x] **Bug Reports Project Board**
+- [x] **Super-linter Workflow**
 - [ ] **All Project Pages and Assets** (Our Production Site)
 - [ ] **Launch Our Site** (Deploy code to server)
 - [ ] **Group Project Presentation**
