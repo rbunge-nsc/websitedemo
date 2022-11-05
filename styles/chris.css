@@ -40,12 +40,12 @@ hr {
   height: 11vh;
   box-sizing: border-box;
   border-color: black;
-  border-width: .5vh;
+  border-width: 0.5vh;
   border-style: solid;
   border-radius: 10px;
   text-align: center;
   overflow: hidden;
-  text-shadow: .4vh .4vh 0 black;
+  text-shadow: 0.4vh 0.4vh 0 black;
 }
 
 .lgap {
@@ -118,10 +118,9 @@ hr {
   position: relative;
   box-sizing: border-box;
   border-color: black;
-  border-width: .5vh;
+  border-width: 0.5vh;
   border-style: solid;
   display: inline-block;
-  box-sizing: border-box;
   border-radius: 10px;
   width: 25vh;
   height: 80vh;
@@ -129,3 +128,126 @@ hr {
   text-align: left;
   padding-left: 2.5vh;
 }
+
+.tblitem {
+  font-style: italic; 
+  color: darkslateblue; 
+  text-decoration: underline;
+  padding-left: 1vh;
+}
+
+.twosoft {
+  position: relative;
+  width: 120vh;
+  height: 12vh;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+.twosofticon {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 15vh;
+  height: 12vh;
+  float: left;
+  padding-top: 2vh;
+  overflow: hidden;
+}
+
+.twosofttext {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 70vh;
+  height: 12vh;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.twosoftlink {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 18vh;
+  height: 12vh;
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  padding-right: 2vh;
+}
+
+.onesoft {
+  position: relative;
+  width: 120vh;
+  height: 12vh;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 2vh;
+}
+
+.onesofticon {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 30vh;
+  height: 12vh;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1vh
+}
+
+.onesofttext {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 70vh;
+  height: 12vh;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.onesoftlink {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 18vh;
+  height: 12vh;
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  padding-right: 2vh;
+  padding-top: 1vh;
+}
+
+
