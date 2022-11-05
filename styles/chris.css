@@ -130,8 +130,8 @@ hr {
 }
 
 .tblitem {
-  font-style: italic; 
-  color: darkslateblue; 
+  font-style: italic;
+  color: darkslateblue;
   text-decoration: underline;
   padding-left: 1vh;
 }
@@ -217,7 +217,7 @@ hr {
   float: left;
   text-align: center;
   overflow: hidden;
-  padding-top: 1vh
+  padding-top: 1vh;
 }
 
 .onesofttext {
