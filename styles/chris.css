@@ -249,3 +249,52 @@ hr {
   padding-right: 2vh;
   padding-top: 1vh;
 }
+
+.stepcontainer {
+  position: relative;
+  width: 120vh;
+  background: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.step {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.stepimg {
+  background: dimgray;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  border-color: black;
+  border-width: 0.25vh;
+  border-style: solid;
+}
+
+.stepgap {
+  background: whitesmoke;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+}
+
+
