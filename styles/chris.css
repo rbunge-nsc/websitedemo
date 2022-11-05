@@ -30,6 +30,25 @@ img {
   z-index: 1;
 }
 
+hr {
+  color: dimgray;
+}
+
+
+.title {
+  position: relative;
+  width: 120vh;
+  height: 11vh;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: .5vh;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-shadow: .4vh .4vh 0 black;
+}
+
 .lgap {
   height: 8vh;
 }
