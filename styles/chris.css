@@ -26,10 +26,39 @@ p {
   font-size: 2vh;
 }
 
-.largeGap {
+img {
+  z-index: 1;
+}
+
+.lgap {
   height: 8vh;
 }
 
-.smallGap {
+.sgap {
   height: 1vh;
+}
+
+.topbanner {
+  position: relative;
+  width: 120vh;
+  height: 50vh;
+  background: white;
+  box-sizing: border-box;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topbox {
+  background: white;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+  height: 50vh;
 }
