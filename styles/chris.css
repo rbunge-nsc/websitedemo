@@ -34,7 +34,6 @@ hr {
   color: dimgray;
 }
 
-
 .title {
   position: relative;
   width: 120vh;
@@ -80,4 +79,53 @@ hr {
   border-width: 15px;
   float: left;
   height: 50vh;
+}
+
+.introcontainer {
+  position: relative;
+  width: 120vh;
+  height: 80vh;
+  background: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  text-align: center;
+}
+
+.boxgap {
+  background: whitesmoke;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+}
+
+.overview {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  text-align: left;
+  padding-top: 1vh;
+}
+
+.tblcont {
+  background: lightslategray;
+  position: relative;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: .5vh;
+  border-style: solid;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 25vh;
+  height: 80vh;
+  float: left;
+  text-align: left;
+  padding-left: 2.5vh;
 }
