@@ -37,7 +37,7 @@
     <h1 style="color: black; margin-bottom: 5vh;">
     "Hello and Welcome to the <a href="https://github.com/twopercentjazz" 
     style="color: darkslateblue; text-decoration: none;"> twopercentjazz</a> GitHub Tutorial!"</h1>
-    <h3 style="color: cornflowerblue; padding-top: 6vh; padding-left: 1vh;">Part of the IT115 Group 3 GitHub</h3>
+    <h3 style="color: cornflowerblue; padding-top: 6vh; padding-left: 1vh;">Part of the IT115 Group 3 GitHub Project</h3>
    </div>
    <div class="topbox" style="width: 64vh;">
     <img style="height: 45vh; width: 65vh; padding-top: 1vh;" src ="images/octocat.gif" alt="octocat">
@@ -84,7 +84,7 @@
 
   <div class="lgap"></div>
 <!--------------------------------- Software ----------------------------------->
-  <center><div class="title" style="background: cornflowerblue;">
+  <center><div class="title" style="background: #4BA6FF;">
    <h1>Software Development Tools For Local GitHub Workflow</h1>
   </div></center>
 
@@ -209,7 +209,7 @@
 
   <div style="height: 1.25vh;"></div>
 
-  <center><div class="overview" style="width: 120vh; height: 68vh; overflow: hidden;">
+  <center><div class="overview" style="width: 120vh; height: 67vh; overflow: hidden;">
    <h2 style="padding-right: 6vh; padding-left: 6vh">Forking Overview</h2>
    <hr>
    <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
@@ -291,29 +291,207 @@
 
   <div style="height: 1.25vh;"></div>
 
-  <center><div class="overview" style="width: 120vh; height: 57vh; overflow: hidden;">
+  <center><div class="overview" style="width: 120vh; height: 70vh; overflow: hidden;">
    <h2 style="padding-right: 6vh; padding-left: 6vh">Setup Overview</h2>
    <hr>
    <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
     <li><p style="padding-top: 1vh;">Before you can contribute to your project you need to setup your local workspace.</p></li>
     <li><p>Setup a working directory for managing your project.</p></li>
     <li><p>Navigate to your new directory and locally clone your forked repo there.</p></li>
-    <li><p>Setup your local repo to communnicate with Github. Your forked project is called the 'Origin' repo and your production code is called the 'Upstream' repo. </p></li>
+    <li><p>Setup your local repo to communnicate with Github. Your forked project is called the 'origin' repo and your production code is called the 'upstream' repo. </p></li>
     <li><p>Make a new working branch for developing your contributions.</p></li>
+    <li><p>For this portion of my demo I will only be using the windows command-line interface.</p></li>
+    <li><p>Note, for demo purposes I start working in the default directory but in practice its a good idea to establish an organized directory ahead of time.</p></li>
    </ul>
   </div></center>
 
-  <div style="height: 1.25vh;"></div>
+  <div style="height: 2vh;"></div>
 
   <center><div class="title" style="background: rosybrown;">
-   <h1>Setting Up &amp; Navigating Your Directory</h1>
+   <h1>Setting Up &amp; Navigating Your Repository Directory</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 51vh;">
+   <div class="step" style="height: 51vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To make a new folder in the current directoy, use the 'make directory' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">mkdir [new directory name]</p>
+    
+   
+   <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 6vh;">To confirm that this new directory exists, use the 'directory' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">dir</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 7vh; font-size: 1vh;">(image right)</p>
+
+   </div>
+   <div class="stepgap" style="height: 51vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 51vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 9vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/d1.png" alt="mkdir">
+   <img style="height: 20vh; width: 56vh; padding-left: 4.5vh; padding-top: 5vh" src ="images/d2.png" alt="dir">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 26vh;">
+   <div class="step" style="height: 26vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To navigate to your new directory, use the 'change directory' commmand:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">cd [directory name]</p>
+
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 26vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 26vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 8vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/d3.png" alt="cd">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 32vh;">
+   <div class="step" style="height: 32vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To copy your GitHub repo into the current directory, use the 'git clone' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git clone [GitHub Repo URL]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 6vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 32vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 32vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 16vh; width: 56vh; padding-left: 4.5vh; padding-top: 7vh" src ="images/d4.png" alt="clone">
+   </div>
+  </div></center>
+
+  <div style="height: 3vh;"></div>
+
+  <center><div class="title" style="background: rosybrown;">
+   <h1>Connecting Your Local Repo With GitHub</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To verify that your local repo is connected to your forked repo (called the origin), use the 'remote repository' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git remote -v</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 9vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/d5.png" alt="remote">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To also connect your local repo with your production repo (called the upstream), use the 'add new remote' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git remote add [GitHub Repo URL]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 2vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 11vh; width: 56vh; padding-left: 4.5vh; padding-top: 8vh" src ="images/d6.png" alt="upstream">
+   </div>
+  </div></center>
+
+  <div style="height: 3vh;"></div>
+
+  <center><div class="title" style="background: rosybrown;">
+   <h1>Creating A New Working Branch In Your Origin Repo</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To see a list of all the active branches in your origin repo, use the 'view branches' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git branch</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 6vh; width: 56vh; padding-left: 4.5vh; padding-top: 10.5vh" src ="images/d7.png" alt="checkbranch">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 31vh;">
+   <div class="step" style="height: 31vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To create and switch to a new working branch, use the 'create new branch' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git checkout -b [name of new branch]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 31vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 31vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 12vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/d8.png" alt="newbranch">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">If you need to switch to a different pre existing branch, use the 'switch branch' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git checkout [name of branch]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 4vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 12vh; width: 56vh; padding-left: 4.5vh; padding-top: 8vh" src ="images/d9.png" alt="switchbranch">
+   </div>
+  </div></center>
+
+<div class="lgap"></div>
+<!---------------------------------- Coding ----------------------------------->
+<center><div class="title" style="background: royalblue;">
+   <h1>Local Code Development Using Git Version Control </h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 70vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Setup Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+    <li><p style="padding-top: 1vh;">Before you can contribute to your project you need to setup your local workspace.</p></li>
+    <li><p>Setup a working directory for managing your project.</p></li>
+    <li><p>Navigate to your new directory and locally clone your forked repo there.</p></li>
+    <li><p>Setup your local repo to communnicate with Github. Your forked project is called the 'origin' repo and your production code is called the 'upstream' repo. </p></li>
+    <li><p>Make a new working branch for developing your contributions.</p></li>
+    <li><p>For this portion of my demo I will only be using the windows command-line interface.</p></li>
+    <li><p>Note, for demo purposes I start working in the default directory but in practice its a good idea to establish an organized directory ahead of time.</p></li>
+   </ul>
+  </div></center>
+
+  <div style="height: 2vh;"></div>
+
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>Setting Up &amp; Navigating Your Repository Directory</h1>
   </div></center>
 
   <div style="height: 1.25vh;"></div>
 
 
 
-<div class="lgap"></div>
+
+  <div class="lgap"></div>
 <!--
 // jscpd:ignore-end
 -->
