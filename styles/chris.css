@@ -125,15 +125,14 @@ hr {
   width: 25vh;
   height: 80vh;
   float: left;
-  text-align: left;
-  padding-left: 2.5vh;
+  text-align: center;
 }
 
 .tblitem {
   font-style: italic;
   color: darkslateblue;
   text-decoration: underline;
-  padding-left: 1vh;
+  text-align: center;
 }
 
 .twosoft {
