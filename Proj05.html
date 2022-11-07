@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<script language="javascript" type="text/javascript">
+			<!--
+			"use strict";
+			function calcMpg(miles, gallons) {
+				if (gallons <=0) {
+					var mpg = 0;
+				} else {
+					var mpg = miles / gallons;
+				}
+				return mpg;
+			}
+			
+			function main () {
+				//accumilator
+				var totalGallons = 0;
+				
+				var userMiles = Number(prompt("How many Miles (-99 to exit)?", ""))
+				//after first question start loop
+				while (userMiles !=-99) {
+					var userGallons = Number(prompt("How many gallons?", ""))
+					var milesPerGallon = calcMpg(userMiles, userGallons);
+					
+					//accumilator
+					totalGallons += userGallons;
+				
+					//Miles traveled: 175.2 
+					//Gallons purchased: 8.46 
+					//MPG: 20.71 
+					document.write("Miles Travled: " +userMiles + "<br />");
+					document.write("Gallons Purchased: " +userGallons + "<br />");
+                    document.write("MPG: " + milesPerGallon.toFixed(2) + "<br /><br />");
+				
+					
+                    
+                    userMiles = Number(prompt("How many miles (-99 to exit)?", ""))
+                }
+                document.write("Total gallons purchased: " + totalGallons);
+            }
+				 //-->
+        </script>
+    </head>
+    <body>
+        <pre>
+            <script language="javascript" type="text/javascript">
+                <!--
+					//var milesPerGallon = calcMpg(175.2,8,46);
+                   // alert(milesPerGallon);
+              main();
+				
+				 
+               
+
+
+                //-->
+            </script>
+        </pre>
+    </body>
+</html>
