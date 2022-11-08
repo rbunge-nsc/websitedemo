@@ -1,7 +1,7 @@
 AmnaKhider
 just now (edited)
 Name of bugs:
-1- Tag can not be used in a tag.
+1- Tag head can not be used in a tag script.
 2- Not use for indentation in line 11.
 3- Not use this characters < in for body tag.
 4- Not use the character for html tag.
@@ -11,7 +11,7 @@ Reported by: Amna Khider
 
 Actions taken to fix:
 I fix this code on 11/8/2022. I found five bugs in this code.
-1- I removed because we should not use it the <script> tag.
+1- I removed (head) tag because we should not use it with the <script> tag.
 2- I use space for indentation on the line 11.
 3- I use special characters in line 26 because It miss it > for the body tag.
 4- same problem in line 27, and I fix it. To use special characters in html tag like this >.
