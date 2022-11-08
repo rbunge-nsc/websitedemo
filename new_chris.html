@@ -468,23 +468,18 @@
 
   <div style="height: 1.25vh;"></div>
 
-  <center><div class="overview" style="width: 120vh; height: 70vh; overflow: hidden;">
+  <center><div class="overview" style="width: 120vh; height: 85vh; overflow: hidden;">
    <h2 style="padding-right: 6vh; padding-left: 6vh">Coding Overview</h2>
    <hr>
    <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
-    <li><p style="padding-top: 1vh;">Before you can contribute to your project you need to setup your local workspace.</p></li>
-    
-    <li><p>Setup a working directory for managing your project.</p></li>
-    
-    <li><p>Navigate to your new directory and locally clone your forked repo there.</p></li>
-    
-    <li><p>Setup your local repo to communnicate with Github. Your forked project is called the 'origin' repo and your production code is called the 'upstream' repo. </p></li>
-    
-    <li><p>Make a new working branch for developing your contributions.</p></li>
-    
-    <li><p>For this portion of my demo I will only be using the windows command-line interface.</p></li>
-    
-    <li><p>Note, for demo purposes I start working in the default directory but in practice its a good idea to establish an organized directory ahead of time.</p></li>
+   	<li><p style="padding-top: 1vh;">I will explore my local workflow for managing code edits and keeping my work in sync with GitHub by creating an html feature to contribute to my teams production code. </p></li>
+    <li><p>Throughout development you will want to regularly keep your local repo in sync with your production code.</p></li>
+    <li><p>Throughout development you will also want to regularly test your code (which I will explore in the testing section).</p></li>
+    <li><p>You will want to adopt an iterative development approach when working with Git. Meaning, you will work on the task of implementing a feature as a series of smaller sub-tasks.</p></li>
+    <li><p>Your working branch represents the feature you want to add to your production code (so it's a good idea to give your branch a descriptive name).</p></li>
+    <li><p>Use Git to manage your branch by adding and commiting your code edits whenever you complete a sub-task. Commiting code keeps a working record of your contributions. </p></li>
+    <li><p>Sync your branch with your origin repo to back up your work online when your ready.</p></li>
+    <li><p>Before I explore how to incorporate Git into your workflow, I will show you what my working desktop looks like.</p></li>
    </ul>
   </div></center>
 
@@ -496,6 +491,35 @@
 
  <div style="height: 1.25vh;"></div>
 
+ <center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: cornflowerblue;">Text Editor </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Sublime text editor open on the left hand side of my desktop. I use Sublime to create and edit html, css, and javascript files. I also use Sublime to quickly manage the location of the files in my repo using the folders tab on the left side of the editor.</h3>
+   </div>
+   
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: yellow;">Terminal </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Windows command-line terminal open on the top-right hand side of my desktop. I use the terminal interface with Git to manage local version control, with GitHub CLI to manage my GitHub repo, and with Docker to run super-linter locally for testing.  </h3>
+    
+   </div>
+   
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: yellowgreen;">Browser </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Firefox browser open on the bottom-right hand side of my desktop. I use the browser to test my code after making any changes and if there is a bug to fix I use the browsers developer tools for debugging. I also use the browser to access GitHub.</h3>
+    
+   </div>
+
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
   <center><div class="overview" style="width: 120vh; height: 85vh; overflow: hidden; background-color: slategray; border-color: black; border-width: 0.5vh; border-style: solid;">
   
    <center><div style="padding-top: 3vh;"><img style="height: 70vh; width: 104vh; padding-left: 0vh; padding-top: 0vh; border-color: black; border-width: 3vh; border-style: solid; border-radius: 10px;" src ="images/workspace.png" alt="workspace">
@@ -503,9 +527,45 @@
    
   </div></center>
 
+<div style="height: 2vh;"></div>
 
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>Keeping Your Local Repo Updated </h1>
+  </div></center>
 
+ <div style="height: 1.25vh;"></div>
 
+ <center><div class="stepcontainer" style="height: 35vh;">
+   <div class="step" style="height: 35vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">First, switch back to your main branch. </h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To make sure your main branch is up to date with your production code you will need to fetch and merge your upstream repo into your origin repo using the 'pull' command: </h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git pull upstream main</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 35vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 35vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 11vh" src ="images/sync.png" alt="syncupstream">
+   </div>
+  </div></center>
+
+   <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 35vh;">
+   <div class="step" style="height: 35vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Then, switch back to your feature branch. </h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To make sure your feature branch is up to date with your production code you can merge your main branch into your feature branch using the 'merge' command: </h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git merge main</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 35vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 35vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 10vh" src ="images/mergemain.png" alt="mergemain">
+   </div>
+  </div></center>
   
 
 
