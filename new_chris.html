@@ -700,26 +700,101 @@
   <div id="testing" class="lgap"></div></a>
 <!---------------------------------- testing ----------------------------------->
   <center><div class="title" style="background: sandybrown;">
-   <h1>Testing</h1>
+   <h1>Local Testing In Browser &amp; With Super Linter</h1>
   </div></center>
 
   <div style="height: 1.25vh;"></div>
 
-  <center><div class="overview" style="width: 120vh; height: 85vh; overflow: hidden;">
+  <center><div class="overview" style="width: 120vh; height: 65vh; overflow: hidden;">
    <h2 style="padding-right: 6vh; padding-left: 6vh">Testing Overview</h2>
    <hr>
    <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
-   	<li><p style="padding-top: 1vh;">I will explore my local workflow for managing code edits and keeping my work in sync with GitHub by creating an html feature to contribute to my teams production code. </p></li>
-    <li><p>Throughout development you will want to regularly keep your local repo in sync with your production code.</p></li>
-    <li><p>Throughout development you will also want to regularly test your code (which I will explore in the testing section).</p></li>
-    <li><p>You will want to adopt an iterative development approach when working with Git. Meaning, you will work on the task of implementing a feature as a series of smaller sub-tasks.</p></li>
-    <li><p>Your working branch represents the feature you want to add to your production code (so it's a good idea to give your branch a descriptive name).</p></li>
-    <li><p>Use Git to manage your branch by adding and commiting your code edits whenever you complete a sub-task. Commiting code keeps a working record of your contributions. </p></li>
-    <li><p>Sync your branch with your origin repo to back up your work online when your ready.</p></li>
-    <li><p>Before I explore how to incorporate Git into your workflow, I will show you what my working desktop looks like.</p></li>
+   	<li><p style="padding-top: 1vh;">You will want to simultaneously test your code throughout the development process.</p></li>
+    <li><p>Every time you make and save code edits in your editor, refresh your browser to preview your changes, and fix your code if the results are not as expected.</p></li>
+    <li><p>If your unsure why your code is not working as intended, you should use the developer tools built into your browser for debugging.</p></li>
+    <li><p>Once you finish coding your feature you can locally run your code through super linter (with the same settings as your production repo) to verify that your code passes all required tests before submitting a pull request (so you don't have any surprises). </p></li>
+    <li><p>Depending on the type of project your working on you might need to incorporate additional testing into your workflow.</p></li>
    </ul>
   </div></center>
 
+  <div style="height: 2.5vh;"></div>
+
+  <center><div class="title" style="background: #F6B680;">
+   <h1>Firefox Browser Developer Tools</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Open your developer tools using the dropdown menu in the top right corner of the browser</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Select the 'More Tools' option</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Then, select the 'Web Developer Tools' option to open the tools</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 4vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 40vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 30vh; width: 15vh; padding-left: 13vh; padding-top: 5vh" src ="images/chris/devtools1.png" alt="devtools1">
+   <img style="height: 30vh; width: 15vh; padding-left: 9vh; padding-top: 5vh" src ="images/chris/devtools2.png" alt="devtools2">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+<center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">The tools will open on the bottom of your browser window</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"><a href="https://firefox-dev.tools/">Click Here</a> to learn more about how to use these delevopment tools</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 12vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 40vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 30vh; width: 50vh; padding-left: 8vh; padding-top: 5vh" src ="images/chris/devtools3.png" alt="devtools3">
+  </div></center>
+
+ <div style="height: 3vh;"></div>
+
+ <center><div class="title" style="background: #F6B680;">
+   <h1>Running Super Linter Locally</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Before you can use super linter locally you need to set up docker and install the super linter container</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"><a href="https://github.com/github/super-linter/blob/main/docs/run-linter-locally.md">Click Here</a> for setup instructions</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 15vh; width: 15vh; padding-left: 11vh; padding-top: 7vh" src ="images/chris/docker.png" alt="docker">
+   <img style="height: 5vh; width: 5vh; padding-left: 3vh; padding-bottom: 5vh" src ="images/chris/plus.png" alt="plus">
+    <img style="height: 15vh; width: 15vh; padding-left: 2vh; padding-bottom: 0.5vh;: 7vh" src ="images/chris/github2.png" alt="github2">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 41vh;">
+   <div class="step" style="height: 41vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"> To use super linter (after you have it setup) use the 'run docker' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">docker run -e <br>RUN_LOCAL=true -e <br>USE_FIND_ALGORITHM=true -v<br> [Repo Directory Location]:/tmp/lint <br>github/super-linter</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 6vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 41vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 41vh; width: 66vh; background-color: slategray;">
+   <img style="height: 35vh; width: 54vh; padding-left: 6vh; padding-top: 3vh" src ="images/chris/linter.png" alt="linter">
+   </div>
+  </div></center>
 
 
 
