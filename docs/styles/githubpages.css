@@ -28,13 +28,13 @@ h3 {
   color: white;
 }
 
-img{
-  height:100px;
+img {
+  height: 100px;
   margin-left: 12%;
   margin-top: 4%;
 }
 
-figcaption{
+figcaption {
   width: 315px;
   text-align: left;
   margin-left: 50px;
@@ -123,7 +123,7 @@ div {
   position: absolute;
   top: 50%;
   left: 48%;
-  transform:  translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 80px;
   transition: 0.5s;
   color: black;
