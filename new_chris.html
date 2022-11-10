@@ -1,48 +1,865 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Chris's Page </title>
-<link rel="stylesheet" type="text/css" href="styles/nav.css">
-<link rel="stylesheet" type="text/css" href="styles/chris.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <head>
+  <title>Chris's Page </title>
+  <link rel="stylesheet" type="text/css" href="styles/nav.css">
+  <link rel="stylesheet" type="text/css" href="styles/chris.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!----------------------------- Drop-Down Nav Bar ------------------------------->
+<!--
+// jscpd:ignore-start
+-->
+  <ul>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <div class="dropdown-content">
+     <a href="new_index.html">Home</a>
+     <a href="new_amna.html">Amna's Page</a>
+     <a href="new_behailu.html">Behailu's Page</a>
+     <a href="new_chris.html">Chris's Page</a>
+     <a href="new_josh.html">Josh's Page</a>
+     <a href="new_julyah.html">Julyah's Page</a>
+    </div>
+   </li>
+  </ul>
+ </head>
+ 
+ <body>
+  <div class="lgap">
+  </div>
+<!-------------------------------- Welcome Banner ------------------------------>
+  <center><div class="topbanner">
+   <div class="topbox"
+   style="width: 54vh;
+   padding-top: 10vh;
+   padding-left: 10vh;
+   text-align: center;">
+    <h1 style="color: black; margin-bottom: 5vh;">
+    "Hello and Welcome to the <a href="https://github.com/twopercentjazz" 
+    style="color: darkslateblue; text-decoration: none;"> twopercentjazz</a> GitHub Tutorial!"</h1>
+    <h3 style="color: cornflowerblue; padding-top: 6vh; padding-left: 1vh;">Part of the IT115 Group 3 GitHub Project</h3>
+   </div>
+   <div class="topbox" style="width: 64vh;">
+    <img style="height: 45vh; width: 65vh; padding-top: 1vh;" src ="images/chris/octocat.gif" alt="octocat">
+   </div>
+  </div></center>
+  
+  <div class="lgap"></div>
+<!------------------------------ Introduction ------------------------------->
+  <center><div class="title" style="background: darkslateblue;">
+   <h1>Local GitHub Workflow With Command-Line Git &amp; Docker </h1>
+  </div></center>
+  
+  <div style="height: 1.25vh;"></div>
+  
+  <center><div class="introcontainer">
+   <div class="overview" style="width: 94vh; height: 80vh; float: left;">
+    <h2 style="padding-right: 6vh; padding-left: 6vh">Tutorial Overview</h2>
+    <hr>
+    <h3 style="padding-right: 6vh; padding-left: 6vh;"><br>The purpose of this tutorial will be to explore how to incorporate command-line Git into your local workflow. I will demonstrate my workflow by building an small part of an html feature that will be pushed to a production repository. I will also test my work locally with super-linter from the the command-line using docker.</h3>
+    <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+     <li><p>I'll share the software development tools I use in conjunction with GitHub that make my workflow possible.</p></li>
+     <li><p>I'll explore forking a repo that you want to contribute to.</p></li>
+     <li><p>I'll explore how to set up a local environment to work with a GitHub repo.</p></li>
+     <li><p>I'll explore the workflow for managing code edits and keeping your work in sync with GitHub. </p></li>
+     <li><p>I'll explore how to test your code locally both in a browser and using docker to run super-linter</p></li>
+     <li><p>I'll explore how to merge my code edits back to the production code on GitHub</p></li>
+    </ul>
+   </div>
 
-<ul>
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
-<div class="dropdown-content">
-<a href="new_index.html">Home</a>
-<a href="new_amna.html">Amna's Page</a>
-<a href="new_behailu.html">Behailu's Page</a>
-<a href="new_chris.html">Chris's Page</a>
-<a href="new_josh.html">Josh's Page</a>
-<a href="new_julyah.html">Julyah's Page</a>
-</div>
-</li>
-</ul>
-</head>
+   <div class="boxgap" style="width: 1vh; height: 80vh;"></div>
+<!---------------------------- Table of Contents ------------------------------->
+   <center><div class="tblcont">
+    <p style="font-weight: bold; font-style: italic; text-decoration: underline; color: black; padding-top: 1.5vh; padding-left: 0vh;">Table of Contents </p>
+    <a style="width: 25vh; height: 5vh;" href="#software"><p class="tblitem">Software</p></a>
+    <a style="width: 25vh; height: 5vh;" href="#forking"><p class="tblitem">Forking</p></a>
+    <a style="width: 25vh; height: 5vh;" href="#setup"><p class="tblitem">Setup</p></a>
+    <a style="width: 25vh; height: 5vh;" href="#coding"><p class="tblitem">Coding</p></a>
+    <a style="width: 25vh; height: 5vh;" href="#testing"><p class="tblitem">Testing</p></a>
+    <a style="width: 25vh; height: 5vh;" href="#merging"><p class="tblitem">merging</p></a>
+   </div></center>
+  </div></center>
 
-<body>
+  <a name="software">
+  <div id="software" class="lgap"></div></a>
+<!--------------------------------- Software ----------------------------------->
+  <center><div class="title" style="background: #4BA6FF;">
+   <h1>Software Development Tools For Local GitHub Workflow</h1>
+  </div></center>
+  
+  <div style="height: 1.25vh;"></div>
 
-<div style="height: 10vh;"></div>
+  <center><div class="overview" style="width: 120vh; height: 42vh;">
+   <h2 style="text-decoration: none; padding-right: 6vh; padding-left: 6vh;">Software Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+    <li><p>There is no one way to set up your local environment, this is just one example.</p></li>
+    <li><p>This software stack will be used to locally implement an html feature and merge the change upstream to a produciton repository.</p></li>
+    <li><p>This tutorial doesn't cover downloading and installing any of this software, to learn more about these tools use the links below.</p></li>
+   </ul>
+  </div></center>
 
-<center><div class="container" 
-style="position: relative;
-width: 120vh;
-height: 100vh;
-background: lightgray;
-box-sizing: border-box;
-border-radius: 10px;
-border-width: 15px;
-border-color: black;
-text-align: center;"> 
+  <div class="sgap"></div>
 
-<h1><br><br>Chris's Page </h1>
+  <center><div class="twosoft">
+   <div class="twosofticon">
+    <img style="height: 5vh; width: 6vh; text-align: center; padding-left: 2vh" src ="images/chris/windows.png" alt="windows">
+   </div>
+   <div class="twosofticon">
+    <img style="height: 5vh; width: 5vh; text-align: left; padding-right: 10vh;" src ="images/chris/cmd.png" alt="cmd">
+   </div>
+   <div class="twosofttext">
+    <p style="padding-top: 2vh;">Windows OS and the built-in Windows Command-Line Shell. </p>
+   </div>
+   <div class="twosoftlink">
+    <p style="padding-top: 2vh;"><a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd">Learn More</a></p>
+   </div>
+  </div></center>
 
-<p>some content...</p>
+  <div class="sgap"></div>
 
-</div></center>
+  <center><div class="onesoft">
+   <div class="onesofticon" style="padding-top: 0;">
+    <img style="height: 7vh; width: 7.5vh; padding-right: 4vh;" src ="images/chris/github.png" alt="github">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">GitHub account for managing and hosting repo.</p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://docs.github.com/en/get-started">Learn More</a></p>
+   </div>
+  </div></center>
 
-<div style="height: 10vh;"></div>
+  <div class="sgap"></div>
 
-</body>
+  <center><div class="onesoft">
+   <div class="onesofticon">
+    <img style="height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/chris/git.png" alt="git">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">Command-line Git for local version control from the terminal. </p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://git-scm.com/">Learn More</a></p>
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="onesoft">
+   <div class="onesofticon">
+    <img style="height: 7vh; width: 7vh; padding-right: 4vh;" src ="images/chris/cli.png" alt="cli">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">GitHub CLI for managing GitHub from the terminal. </p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://cli.github.com/">Learn More</a></p>
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="onesoft">
+   <div class="onesofticon">
+    <img style="height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/chris/sublime.png" alt="sublime">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">Sublime text editor for code development and file management. </p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://www.sublimetext.com/">Learn More</a></p>
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="onesoft">
+   <div class="onesofticon">
+    <img style="height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/chris/docker.png" alt="docker">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">Docker to test your code from the terminal using GitHub's super-linter. </p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://github.com/github/super-linter/blob/main/docs/run-linter-locally.md">Learn More</a></p>
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+  
+  <center><div class="onesoft">
+   <div class="onesofticon">
+    <img style="height: 6vh; width: 6vh; padding-right: 4vh;" src ="images/chris/firefox.png" alt="firefox">
+   </div>
+   <div class="onesofttext">
+    <p style="padding-top: 1vh;">Mozilla firefox browser for testing code and accessing GitHub. </p>
+   </div>
+   <div class="onesoftlink">
+    <p><a href="https://firefox-source-docs.mozilla.org/devtools-user/index.html">Learn More</a></p>
+   </div>
+  </div></center>
+
+  <a name="forking">
+  <div id="forking" class="lgap"></div></a>
+<!---------------------------------- Forking ----------------------------------->
+  <center><div class="title" style="background: darkcyan;">
+   <h1>GitHub Repository Forking</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 67vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Forking Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+    <li><p style="padding-top: 1vh;">Forking a GitHub repo creates a personal copy of an existing project in your personal Github account.</p></li>
+    <li><p>A forked repo provides an isolated workspace for contributing to a project without affecting or being dependent on others.</p></li>
+    <li><p>This isolation lets you test for conflicts when merging a branch into main before creating a pull request in your production repo.</p></li>
+    <li><p>Before testing your branch, you will want to update the main branch of your fork by pulling in the main branch of your production repo (covered in the next section).</p></li>
+    <li><p>For this portion of my demo I will be using GitHub's web interface (not command-line).</p></li>
+    <li><p>Note, before you can fork a repo you need a GitHub account.</p></li>
+   </ul>
+  </div></center>
+
+  <div style="height: 0.50vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Navigate to the url of the repo you want to fork in your browser</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 7vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh;">
+   <img style="height: 15vh; width: 55vh; padding-left: 6vh; padding-top: 6vh" src ="images/chris/forksite.png" alt="forksite">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">In the top right corner of the GitHub UI click on the 'Fork' drop-down menu and select 'Create a new fork' </h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 5vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh;">
+   <img style="height: 18vh; width: 44vh; padding-left: 11vh; padding-top: 4.5vh" src ="images/chris/forkmenu.png" alt="forkmenu">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">You will be directed to the set-up page to 'Create a new fork'</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Choose your GitHub account and hit the 'Create fork' button</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 12vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 40vh; width: 66vh;">
+   <img style="height: 30vh; width: 50vh; padding-left: 8vh; padding-top: 4.5vh" src ="images/chris/forkcreate.png" alt="forkcreate">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 25vh;">
+   <div class="step" style="height: 25vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 4 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Open your personal GitHub page to confirm the fork is present</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 5vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 25vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 25vh; width: 66vh;">
+   <img style="height: 10vh; width: 44vh; padding-left: 11vh; padding-top: 7vh" src ="images/chris/forkconfirm.png" alt="forkconfirm">
+   </div>
+  </div></center>
+
+  <a name="setup">
+  <div id="setup" class="lgap"></div></a>
+<!---------------------------------- Setup ----------------------------------->
+  <center><div class="title" style="background: #a36666;">
+   <h1>Setting Up Your Local Workspace</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 70vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Setup Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+    <li><p style="padding-top: 1vh;">Before you can contribute to your project you need to setup your local workspace.</p></li>
+    <li><p>Setup a working directory for managing your project.</p></li>
+    <li><p>Navigate to your new directory and locally clone your forked repo there.</p></li>
+    <li><p>Setup your local repo to communnicate with Github. Your forked project is called the 'origin' repo and your production code is called the 'upstream' repo. </p></li>
+    <li><p>Make a new working branch for developing your contributions.</p></li>
+    <li><p>For this portion of my demo I will only be using the windows command-line interface.</p></li>
+    <li><p>Note, for demo purposes I start working in the default directory but in practice its a good idea to establish an organized directory ahead of time.</p></li>
+   </ul>
+  </div></center>
+
+  <div style="height: 2vh;"></div>
+
+  <center><div class="title" style="background: rosybrown;">
+   <h1>Setting Up &amp; Navigating Your Repository Directory</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 51vh;">
+   <div class="step" style="height: 51vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To make a new folder in the current directoy, use the 'make directory' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">mkdir [new directory name]</p>
+    
+   
+   <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 6vh;">To confirm that this new directory exists, use the 'directory' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">dir</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 7vh; font-size: 1vh;">(image right)</p>
+
+   </div>
+   <div class="stepgap" style="height: 51vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 51vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 9vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/chris/d1.png" alt="mkdir">
+   <img style="height: 20vh; width: 56vh; padding-left: 4.5vh; padding-top: 5vh" src ="images/chris/d2.png" alt="dir">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 26vh;">
+   <div class="step" style="height: 26vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To navigate to your new directory, use the 'change directory' commmand:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">cd [directory name]</p>
+
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 26vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 26vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 8vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/chris/d3.png" alt="cd">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 32vh;">
+   <div class="step" style="height: 32vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To copy your GitHub repo into the current directory, use the 'git clone' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git clone [GitHub Repo URL]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 6vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 32vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 32vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 16vh; width: 56vh; padding-left: 4.5vh; padding-top: 7vh" src ="images/chris/d4.png" alt="clone">
+   </div>
+  </div></center>
+
+  <div style="height: 3vh;"></div>
+
+  <center><div class="title" style="background: rosybrown;">
+   <h1>Connecting Your Local Repo With GitHub</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To verify that your local repo is connected to your forked repo (called the origin), use the 'remote repository' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git remote -v</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 9vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/chris/d5.png" alt="remote">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To also connect your local repo with your production repo (called the upstream), use the 'add new remote' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git remote add [GitHub Repo URL]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 2vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 11vh; width: 56vh; padding-left: 4.5vh; padding-top: 8vh" src ="images/chris/d6.png" alt="upstream">
+   </div>
+  </div></center>
+
+  <div style="height: 3vh;"></div>
+
+  <center><div class="title" style="background: rosybrown;">
+   <h1>Creating A New Working Branch In Your Origin Repo</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 28vh;">
+   <div class="step" style="height: 28vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To see a list of all the active branches in your origin repo, use the 'view branches' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git branch</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 28vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 28vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 6vh; width: 56vh; padding-left: 4.5vh; padding-top: 10.5vh" src ="images/chris/d7.png" alt="checkbranch">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 31vh;">
+   <div class="step" style="height: 31vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">To create and switch to a new working branch, use the 'create new branch' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git checkout -b [name of new branch]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 31vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 31vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 12vh; width: 56vh; padding-left: 4.5vh; padding-top: 9vh" src ="images/chris/d8.png" alt="newbranch">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">If you need to switch to a different pre existing branch, use the 'switch branch' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git checkout [name of branch]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 2vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: darkslategrey;">
+   <img style="height: 12vh; width: 56vh; padding-left: 4.5vh; padding-top: 8vh" src ="images/chris/d9.png" alt="switchbranch">
+   </div>
+  </div></center>
+
+  <a name="coding">
+  <div id="coding" class="lgap"></div></a>
+<!---------------------------------- Coding ----------------------------------->
+  <center><div class="title" style="background: royalblue;">
+   <h1>Local Code Development Using Git Version Control </h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 85vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Coding Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+   <li><p style="padding-top: 1vh;">I will explore my local workflow for managing code edits and keeping my work in sync with GitHub by creating an html feature to contribute to my teams production code. </p></li>
+   <li><p>Throughout development you will want to regularly keep your local repo in sync with your production code.</p></li>
+   <li><p>Throughout development you will also want to regularly test your code (which I will explore in the testing section).</p></li>
+   <li><p>You will want to adopt an iterative development approach when working with Git. Meaning, you will work on the task of implementing a feature as a series of smaller sub-tasks.</p></li>
+   <li><p>Your working branch represents the feature you want to add to your production code (so it's a good idea to give your branch a descriptive name).</p></li>
+   <li><p>Use Git to manage your branch by adding and commiting your code edits whenever you complete a sub-task. Commiting code keeps a working record of your contributions. </p></li>
+   <li><p>Sync your branch with your origin repo to back up your work online when your ready.</p></li>
+   <li><p>Before I explore how to incorporate Git into your workflow, I will show you what my working desktop looks like.</p></li>
+   </ul>
+   </div></center>
+
+  <div style="height: 2vh;"></div>
+
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>My Working Desktop For This Demo</h1>
+  </div></center>
+
+ <div style="height: 1.25vh;"></div>
+
+ <center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: cornflowerblue;">Text Editor </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Sublime text editor open on the left hand side of my desktop. I use Sublime to create and edit html, css, and javascript files. I also use Sublime to quickly manage the location of the files in my repo using the folders tab on the left side of the editor.</h3>
+   </div>
+   
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: yellow;">Terminal </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Windows command-line terminal open on the top-right hand side of my desktop. I use the terminal interface with Git to manage local version control, with GitHub CLI to manage my GitHub repo, and with Docker to run super-linter locally for testing.  </h3>
+    
+   </div>
+   
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   
+   <div class="step" style="height: 40vh; width: 39.25vh;">
+   <h3 style="padding-top: 1vh; padding-right: 0vh; padding-left: 4vh; color: yellowgreen;">Browser </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">I have Firefox browser open on the bottom-right hand side of my desktop. I use the browser to test my code after making any changes and if there is a bug to fix I use the browsers developer tools for debugging. I also use the browser to access GitHub.</h3>
+    
+   </div>
+
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 85vh; overflow: hidden; background-color: slategray; border-color: black; border-width: 0.5vh; border-style: solid;">
+  
+   <center><div style="padding-top: 3vh;"><img style="height: 70vh; width: 104vh; padding-left: 0vh; padding-top: 0vh; border-color: black; border-width: 3vh; border-style: solid; border-radius: 10px;" src ="images/chris/workspace.png" alt="workspace">
+   </div></center>
+   
+  </div></center>
+
+<div style="height: 2vh;"></div>
+
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>Keeping Your Local Repo Updated </h1>
+  </div></center>
+
+ <div style="height: 1.25vh;"></div>
+
+ <center><div class="stepcontainer" style="height: 35vh;">
+   <div class="step" style="height: 35vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">First, switch back to your main branch. </h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To make sure your main branch is up to date with your production code you will need to fetch and merge your upstream repo into your origin repo using the 'pull' command: </h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git pull upstream main</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 35vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 35vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 11vh" src ="images/chris/sync.png" alt="syncupstream">
+   </div>
+  </div></center>
+
+   <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 35vh;">
+   <div class="step" style="height: 35vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Then, switch back to your feature branch. </h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To make sure your feature branch is up to date with your production code you can merge your main branch into your feature branch using the 'merge' command: </h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git merge main</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 0vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 35vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 35vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 10vh" src ="images/chris/mergemain.png" alt="mergemain">
+   </div>
+  </div></center>
+  
+  <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 37vh;">
+   <div class="step" style="height: 37vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Note: </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Another way to check what branch your on is to use the 'staus' command: </h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git status</p>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">This command is also useful to see if you have uncommited changes that can be added (demonstrated in the next section).</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 2vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 37vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 37vh; width: 66vh; background-color: slategray;">
+   <img style="height: 8vh; width: 56vh; padding-left: 5vh; padding-top: 13vh" src ="images/chris/status.png" alt="status">
+   </div>
+  </div></center>
+
+  <div style="height: 2.5vh;"></div>
+
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>Demo HTML Feature To Mangage With Git</h1>
+  </div></center>
+
+ <div style="height: 1.25vh;"></div>
+
+<center><div class="stepcontainer" style="height: 69vh;">
+   <div class="step" style="height: 69vh; width: 59.5vh; background-color: black; border-color: black; border-width: 0.35vh; border-style: solid;">
+   <h3 style="color: lightgray; padding-right: 0vh; padding-left: 3vh; padding-top: 1vh;">HTML Before Code Edit:</h3>
+   <hr style="color: black;">
+   <center><br><img style="border-color: dimgray; border-width: 0.3vh; border-style: solid; height: 50vh; width: 45vh; padding-left: 0vh; padding-top: 0vh" src ="images/chris/htmlbefore.png" alt="htmlbefore"></center>
+   </div>
+   <div class="stepgap" style="height: 69vh; width: 1vh;"></div>
+   <div class="step" style="height: 69vh; width: 59.5vh; background-color: steelblue; border-color: black; border-width: 0.5vh; border-style: solid;">
+   <h3 style="color: white; padding-right: 0vh; padding-left: 4vh; padding-top: 1vh;">HTML After Code Edit: </h3>
+   <hr style="color: dimgray;">
+   <center><br><img style="border-color: black; border-width: 0.3vh; border-style: solid; height: 50vh; width: 45vh; padding-left: 0vh; padding-top: 0vh" src ="images/chris/htmlafter.png" alt="htmlafter"></center>
+   </div>
+  </div></center>
+
+<div style="height: 1.25vh;"></div>
+
+<center><div class="stepcontainer" style="height: 45vh;">
+   <div class="step" style="height: 45vh; width: 59.5vh; background-color: black; border-color: black; border-width: 0.35vh; border-style: solid;">
+   <h3 style="color: lightgray; padding-right: 0vh; padding-left: 3vh; padding-top: 1vh;">Browser View Before Code Edit:</h3>
+   <hr style="color: black;">
+   <center><br><img style="border-color: dimgray; border-width: 0.3vh; border-style: solid; height: 25vh; width: 45vh; padding-left: 0vh; padding-top: 0vh" src ="images/chris/browserbefore.png" alt="browserbefore"></center>
+   </div>
+   <div class="stepgap" style="height: 45vh; width: 1vh;"></div>
+   <div class="step" style="height: 45vh; width: 59.5vh; background-color: steelblue; border-color: black; border-width: 0.5vh; border-style: solid;">
+   <h3 style="color: white; padding-right: 0vh; padding-left: 4vh; padding-top: 1vh;">Browser View After Code Edit: </h3>
+   <hr style="color: dimgray;">
+   <center><br><img style="border-color: black; border-width: 0.3vh; border-style: solid; height: 25vh; width: 45vh; padding-left: 0vh; padding-top: 0vh" src ="images/chris/browserafter.png" alt="browserafter"></center>
+   </div>
+  </div></center>
+
+
+ <div style="height: 2.5vh;"></div>
+
+  <center><div class="title" style="background: cornflowerblue;">
+   <h1>Adding, Commiting, &amp; Pushing Code With Git. </h1>
+  </div></center>
+
+ <div style="height: 1.25vh;"></div>
+
+ <center><div class="stepcontainer" style="height: 36vh;">
+   <div class="step" style="height: 36vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">The first step is to create a code edit like the demo above (which represents a component of the feature your working on). </h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To verify that you have uncommited code you can use the 'status' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git status</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 1vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 36vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 36vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 12vh" src ="images/chris/addstatus.png" alt="addstatus">
+   </div>
+  </div></center>
+
+   <div class="sgap"></div>
+
+    <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Before you can commit your code you need to add it to a 'staging area' using the 'add' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git add -A</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: slategray;">
+   <img style="height: 12vh; width: 56vh; padding-left: 5vh; padding-top: 8vh" src ="images/chris/add.png" alt="add">
+   </div>
+  </div></center>
+
+   <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 41vh;">
+   <div class="step" style="height: 41vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Next, you will take a working snapshot of the changes you made (which represents a safe version of your project). Everytime you take a snapshot you will document it with a brief descriptive message.</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"> To take a snapshot of your project use the 'commit' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git commit -m "[your message here]"</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 1vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 41vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 41vh; width: 66vh; background-color: slategray;">
+   <img style="height: 9vh; width: 56vh; padding-left: 5vh; padding-top: 14vh" src ="images/chris/commit.png" alt="commit">
+   </div>
+  </div></center>
+
+   <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 35vh;">
+   <div class="step" style="height: 35vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 4 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">After you have commited a series of changes to your branch, back up your work online in your origin repo by using the 'push' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">git push -u origin [your branch name]</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 5vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 35vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 35vh; width: 66vh; background-color: slategray;">
+   <img style="height: 21vh; width: 56vh; padding-left: 5vh; padding-top: 6vh" src ="images/chris/push.png" alt="push">
+   </div>
+  </div></center>
+
+
+  <a name="testing">
+  <div id="testing" class="lgap"></div></a>
+<!---------------------------------- testing ----------------------------------->
+  <center><div class="title" style="background: sandybrown;">
+   <h1>Local Testing In Browser &amp; With Super Linter</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 65vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Testing Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+   <li><p style="padding-top: 1vh;">You will want to simultaneously test your code throughout the development process.</p></li>
+   <li><p>Every time you make and save code edits in your editor, refresh your browser to preview your changes, and fix your code if the results are not as expected.</p></li>
+   <li><p>If your unsure why your code is not working as intended, you should use the developer tools built into your browser for debugging.</p></li>
+   <li><p>Once you finish coding your feature you can locally run your code through super linter (with the same settings as your production repo) to verify that your code passes all required tests before submitting a pull request (so you don't have any surprises). </p></li>
+   <li><p>Depending on the type of project your working on you might need to incorporate additional testing into your workflow.</p></li>
+   </ul>
+  </div></center>
+
+  <div style="height: 2.5vh;"></div>
+
+  <center><div class="title" style="background: #F6B680;">
+   <h1>Firefox Browser Developer Tools</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Open your developer tools using the dropdown menu in the top right corner of the browser</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Select the 'More Tools' option</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Then, select the 'Web Developer Tools' option to open the tools</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 4vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 40vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 30vh; width: 15vh; padding-left: 13vh; padding-top: 5vh" src ="images/chris/devtools1.png" alt="devtools1">
+   <img style="height: 30vh; width: 15vh; padding-left: 9vh; padding-top: 5vh" src ="images/chris/devtools2.png" alt="devtools2">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+<center><div class="stepcontainer" style="height: 40vh;">
+   <div class="step" style="height: 40vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">The tools will open on the bottom of your browser window</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"><a href="https://firefox-dev.tools/">Click Here</a> to learn more about how to use these delevopment tools</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 12vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 40vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 40vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 30vh; width: 50vh; padding-left: 8vh; padding-top: 5vh" src ="images/chris/devtools3.png" alt="devtools3">
+  </div>
+  </div></center>
+
+ <div style="height: 3vh;"></div>
+
+ <center><div class="title" style="background: #F6B680;">
+   <h1>Running Super Linter Locally</h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 30vh;">
+   <div class="step" style="height: 30vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">Before you can use super linter locally you need to set up docker and install the super linter container</h3>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"><a href="https://github.com/github/super-linter/blob/main/docs/run-linter-locally.md">Click Here</a> for setup instructions</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 30vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 30vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 15vh; width: 15vh; padding-left: 11vh; padding-top: 7vh" src ="images/chris/docker.png" alt="docker">
+   <img style="height: 5vh; width: 5vh; padding-left: 3vh; padding-bottom: 5vh" src ="images/chris/plus.png" alt="plus">
+    <img style="height: 15vh; width: 15vh; padding-left: 2vh; padding-bottom: 0.5vh;: 7vh" src ="images/chris/github2.png" alt="github2">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+   <center><div class="stepcontainer" style="height: 41vh;">
+   <div class="step" style="height: 41vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 2 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;"> To use super linter (after you have it setup) use the 'run docker' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">docker run -e <br>RUN_LOCAL=true -e <br>USE_FIND_ALGORITHM=true -v<br> [Repo Directory Location]:/tmp/lint <br>github/super-linter</p>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 6vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 41vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 41vh; width: 66vh; background-color: slategray;">
+   <img style="height: 35vh; width: 54vh; padding-left: 6vh; padding-top: 3vh" src ="images/chris/linter.png" alt="linter">
+   </div>
+  </div></center>
+
+  <div class="sgap"></div>
+
+<center><div class="stepcontainer" style="height: 25vh;">
+   <div class="step" style="height: 25vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 3 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">After running super linter, if you have errors fix your code and run super linter again until your code passes all tests</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 12vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 25vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 25vh; width: 66vh; background-color: lightslategray;">
+   <img style="height: 11vh; width: 50vh; padding-left: 8vh; padding-top: 6vh" src ="images/chris/linterpassed.png" alt="linterpassed">
+  </div>
+  </div></center>
+
+
+  <a name="merging">
+  <div id="merging" class="lgap"></div></a>
+<!---------------------------------- merging ----------------------------------->
+  <center><div class="title" style="background: #6fa96f;">
+   <h1>Merging Code Into Your Production Repo With GitHub CLI</h1>
+  </div></center>
+
+<div style="height: 1.25vh;"></div>
+
+  <center><div class="overview" style="width: 120vh; height: 43vh; overflow: hidden;">
+   <h2 style="padding-right: 6vh; padding-left: 6vh">Merging Overview</h2>
+   <hr>
+   <ul style="background-color: black; color: white; padding-left: 4vh; padding-right: 9vh; padding-left: 10vh; padding-top: 1vh; list-style-type: disc;">
+
+   <li><p style="padding-top: 1vh;">If you want to avoid context switching in your workflow, you can create a 'pull request' to merge your working branch with your main production branch, all from the command-line terminal.</p></li>
+   <li><p>To do this you will first need to setup Github CLI.</p></li>
+   <li><p>GitHub CLI is a open source first party tool for managing your online repo from the terminal.</p></li>
+   </ul>
+  </div></center>
+
+  <div style="height: 3vh;"></div>
+
+ <center><div class="title" style="background: darkseagreen;">
+   <h1>Creating A Pull Request From Your Terminal </h1>
+  </div></center>
+
+  <div style="height: 1.25vh;"></div>
+
+  <center><div class="stepcontainer" style="height: 42vh;">
+   <div class="step" style="height: 42vh; width: 53vh;">
+   <h3 style="padding-right: 0vh; padding-left: 4vh;">Step: 1 </h3>
+    <hr>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 1vh;">To create a pull request from the terminal use the 'pull request' command:</h3>
+    <p style="color: lightgray;padding-left: 5vh; padding-top: 1vh;">gh pr create<br>--title "[Pull Request title]"<br>--body "[Pull Request Description]"</p>
+    <h3 style="padding-right: 5vh; padding-left: 5vh; padding-top: 2vh;">Next, select where to send your pull request (origin or upstream)</h3>
+    <p style="color: dimgray; text-align: right; padding-right: 5vh; padding-left: 5vh; padding-top: 3vh; font-size: 1vh;">(image right)</p>
+   </div>
+   <div class="stepgap" style="height: 42vh; width: 1vh;"></div>
+   <div class="stepimg" style="height: 42vh; width: 66vh; background-color: lightgray;">
+   <img style="height: 13vh; width: 56vh; padding-left: 5vh; padding-top: 14vh" src ="images/chris/pr1.png" alt="pullrequest">
+   </div>
+  </div></center>
+
+
+  <div class="lgap"></div>
+<!--
+// jscpd:ignore-end
+-->
+ </body>
 </html>

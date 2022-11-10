@@ -1,4 +1,4 @@
-
+/*
 function showAlt(x) {
   document.getElementById("alttext").innerHTML=x.alt;
 }
@@ -6,3 +6,4 @@ function showAlt(x) {
 function hideAlt(x) {
   document.getElementById("alttext").innerHTML="";
 }
+*/
