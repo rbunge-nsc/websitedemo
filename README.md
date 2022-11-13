@@ -1,6 +1,7 @@
 # IT115 Group 3 Class Project @ NSC
 
 ## Project Overview
+[![GitHub Super-Linter](https://github.com/firejewels/It115-Group-3-Project_sandbox/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 > We will use a fork of [websitedemo](https://github.com/rbunge-nsc/websitedemo) as the seed code for our project.
 >
