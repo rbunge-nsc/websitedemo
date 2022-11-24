@@ -98,6 +98,8 @@ div {
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 10px;
+  border-width: 15px;
+  border-style: groove;
 }
 
 .container .box .icon {
