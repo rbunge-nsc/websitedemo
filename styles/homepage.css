@@ -114,6 +114,14 @@ div {
   z-index: 1;
 }
 
+.container .box .alttext{
+  opacity: 1;
+}
+
+.container .box:hover .alttext{
+  opacity: 0;
+}
+
 .container .box:hover .icon {
   top: 50px;
   left: calc(50% - 40px);
