@@ -60,12 +60,10 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #555;
-  
 }
 
 li a.active {
   background-color: steelblue;
-  
 }
 
 li {
@@ -114,11 +112,11 @@ div {
   z-index: 1;
 }
 
-.container .box .alttext{
+.container .box .alttext {
   opacity: 1;
 }
 
-.container .box:hover .alttext{
+.container .box:hover .alttext {
   opacity: 0;
 }
 
