@@ -1,0 +1,297 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 4vh;
+}
+
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 3vh;
+}
+
+h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2vh;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2vh;
+}
+
+img {
+  z-index: 1;
+}
+
+hr {
+  color: dimgray;
+}
+
+.title {
+  position: relative;
+  width: 120vh;
+  height: 11vh;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: 0.5vh;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-shadow: 0.4vh 0.4vh 0 black;
+}
+
+.lgap {
+  height: 8vh;
+}
+
+.sgap {
+  height: 1vh;
+}
+
+.topbanner {
+  position: relative;
+  width: 120vh;
+  height: 50vh;
+  background: white;
+  box-sizing: border-box;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topbox {
+  background: white;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+  height: 50vh;
+}
+
+.introcontainer {
+  position: relative;
+  width: 120vh;
+  height: 80vh;
+  background: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  text-align: center;
+}
+
+.boxgap {
+  background: whitesmoke;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+}
+
+.overview {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  text-align: left;
+  padding-top: 1vh;
+}
+
+.tblcont {
+  background: lightslategray;
+  position: relative;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: 0.5vh;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 10px;
+  width: 25vh;
+  height: 80vh;
+  float: left;
+  text-align: center;
+}
+
+.tblitem {
+  font-style: italic;
+  color: darkslateblue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.twosoft {
+  position: relative;
+  width: 120vh;
+  height: 12vh;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+.twosofticon {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 15vh;
+  height: 12vh;
+  float: left;
+  padding-top: 2vh;
+  overflow: hidden;
+}
+
+.twosofttext {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 70vh;
+  height: 12vh;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.twosoftlink {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 18vh;
+  height: 12vh;
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  padding-right: 2vh;
+}
+
+.onesoft {
+  position: relative;
+  width: 120vh;
+  height: 12vh;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 2vh;
+}
+
+.onesofticon {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 30vh;
+  height: 12vh;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+.onesofttext {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 70vh;
+  height: 12vh;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.onesoftlink {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  width: 18vh;
+  height: 12vh;
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  padding-right: 2vh;
+  padding-top: 1vh;
+}
+
+.stepcontainer {
+  position: relative;
+  width: 120vh;
+  background: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 1vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.step {
+  background: black;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.stepimg {
+  background: dimgray;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  border-color: black;
+  border-width: 0.35vh;
+  border-style: solid;
+}
+
+.stepgap {
+  background: whitesmoke;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 15px;
+  float: left;
+}
