@@ -15,17 +15,17 @@
 > As this is a webpage, the environment setup is up to you.
 
 ## Submitting Changes
-> We submit changes by: 
-> 1. creating a branch, 
-> 2. commiting and staging changes, 
-> 3. sending a pull request, 
+> We submit changes by:
+> 1. creating a branch,
+> 2. commiting and staging changes,
+> 3. sending a pull request,
 > 4. having a team member approve changes and merge changes.
 
 ## Testing
 > We have a SuperLinter setup that will catch some code issues. Any bug that is caught here should be fixed before merging into main. Bugs found in main will be posted on the Bug Reports Board under Projects.
 
 ## Bug Reports
-> Bugs are tracked here: https://github.com/users/firejewels/projects/7/views/1
+> Bugs are tracked here: [Bug Board](https://github.com/users/firejewels/projects/7/views/1)
 This is how we make sure the team is aware of features that are missing or where the code needs a little work.
 
 > All team members are resposible for posting and updating the board when an item needs to be closed.
