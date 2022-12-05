@@ -1,0 +1,361 @@
+/*  NOTES:  The dot . is a class selector, the hash/pound/octothorpe # selects by an ID: 
+<style>
+    .foo { ... }
+    #bar { ... }
+</style>
+/*  HTML code  for class and ID */
+/*
+<p class='foo'>Foo</p>
+<p id='bar' class='baz'>Bar</p>
+*/
+
+
+/********************************************  HTML Tag styling **************************************************************/
+/* To color the background */
+ body {
+  background-color: powderblue;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+}
+
+p {
+  color: black;
+  font-family: verdana;
+  font-size: 90%;
+
+}
+div {
+  color: black;
+  font-family: verdana;
+  font-size: 90%;
+
+}
+table {
+	color: black;
+	font-family: verdana;
+	font-size: 100%;
+}
+
+
+/*prepare for horizontal menu - remove the default list style */
+ol,ul {
+	list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/******************************************** # ID Tag styling **************************************************************/
+
+/*prepare for horizontal menu - Set the width and margins of the menu */
+/*Setting the width prevents the menu from wrapping when the user shrinks the browser window. */
+#mainMenu {
+	margin: 1px;
+	width: 1500px;
+	font-family: sans-serif;
+}
+
+/*prepare for horizontal menu - Set the list items to display as blocks, give them a width, and float them to the left so that they'll each display to the right of the preceding item. */
+#mainMenu li {
+	display:block;
+	width:150px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+/*prepare for horizontal menu - Change the a elements to block elements. We'll also add some formatting styles and remove the underline with text-decoration: none. */
+#mainMenu a {
+	display:block;
+	padding:2px;
+	text-decoration:none;
+	background-color:navy;
+	color:white;
+	text-align:center;	
+}
+/*prepare for horizontal previous next buttons - Set the width and margins */
+/*Setting the width prevents the buttons from wrapping when the user shrinks the browser window. */
+#prevNext {
+	margin: 1px;
+	width: 770px;
+	font-family: sans-serif;
+}
+
+/*prepare for horizontal menu - Set the list items to display as blocks, give them a width, and float them to the left so that they'll each display to the right of the preceding item. */
+#prevNext li {
+	display:block;
+	width:150px;
+	float: right;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+/*prepare for Previous Next - Change the a elements to block elements. We'll also add some formatting styles and remove the underline with text-decoration: none. */
+#prevNext a {
+	display:block;
+	padding:2px;
+	text-decoration:none;
+	background-color:white;
+	color:navy;
+	text-align:center;	
+}
+
+
+
+/*prepare for horizontal menu - change the hover state of the links so that they highlight when a user points to them.
+ */
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+
+ /*  Font Size and style */
+#menu {
+	font-style: bold;
+	font-size: 20px;
+}
+
+
+/******************************************** . Class Tag styling **************************************************************/
+/*  Text alignment Center */
+.main {
+	text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*  Text color, font size & font weight */
+.GFG {
+	color: #009900;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.table-font80 {
+	color: black;
+	font-family: verdana;
+	font-size: 80%;
+}
+
+
+
+/*  To center the button horizontally Set the display property to flex or grid and Set the justify-content property as center  */
+.center-h {
+  display: flex; /* or display:grid */
+  justify-content: center;
+}
+
+/* To center button vertically set the align-items property and set it to center and add the display flex property */
+.center-v {
+  display: flex;
+  align-items: center;
+}
+
+/* To see the content centered vertically, let’s add one more class to set the <div> element height to 500: */
+.h-1500 {
+  height: 1500;
+}
+
+.sub_div {
+	position: absolute;
+	bottom: 0px;
+}
+.p-750 {
+	margin-left:750px;
+}
+.p-650 {
+	margin-left:650px;
+}
+
+/* For Previous / Next buttons */
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* For Previous / Next buttons */
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+/* For Previous / Next Round button */
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+/* For Previous / Next Round button */
+.round {
+  border-radius: 50%;
+}
+
+ /*  Tabs */
+.tab2 {
+	tab-size: 2;
+}
+
+.tab4 {
+	tab-size: 4;
+}
+
+.tab6 {
+	tab-size: 6;
+}
+
+.tab8 {
+	tab-size: 8;
+}
+
+.tab10 {
+	tab-size: 10;
+}
+
+.tab12 {
+	tab-size: 12;
+}
+
+.tab14 {
+	tab-size: 14;
+}
+
+.tab16 {
+	tab-size: 16;
+}
+
+.tab18 {
+	tab-size: 18;
+}
+
+.tab20 {
+	tab-size: 20;
+}
+
+.tab22 {
+	tab-size: 22;
+}
+
+.tab24 {
+	tab-size: 24;
+}
+.tab05pxlMarginLeft {
+	display: inline-block;
+	margin-left: 05px;
+}
+.tab10pxlMarginLeft {
+	display: inline-block;
+	margin-left: 10px;
+}	
+.tab15pxlMarginLeft {
+	display: inline-block;
+	margin-left: 15px;
+}
+.tab20pxlMarginLeft {
+	display: inline-block;
+	margin-left: 20px;
+}	
+.tab25pxlMarginLeft {
+	display: inline-block;
+	margin-left: 25px;
+}
+.tab30pxlMarginLeft {
+	display: inline-block;
+	margin-left: 30px;
+}	
+.tab35pxlMarginLeft {
+	display: inline-block;
+	margin-left: 35px;
+}	
+.tab40pxlMarginLeft {
+	display: inline-block;
+	margin-left: 40px;
+}
+.tab45pxlMarginLeft {
+	display: inline-block;
+	margin-left: 45px;
+}
+.tab50pxlMarginLeft {
+	display: inline-block;
+	margin-left: 50px;
+}	
+.tab55pxlMarginLeft {
+	display: inline-block;
+	margin-left: 55px;
+}
+ .tab60pxlMarginLeft {
+	display: inline-block;
+	margin-left: 60px;
+}
+.tab65pxlMarginLeft {
+	display: inline-block;
+	margin-left: 65px;
+}
+.tab70pxlMarginLeft {
+	display: inline-block;
+	margin-left: 70px;
+}	
+.tab75pxlMarginLeft {
+	display: inline-block;
+	margin-left: 75px;
+}
+.tab80pxlMarginLeft {
+	display: inline-block;
+	margin-left: 80px;
+}
+.tab85pxlMarginLeft {
+	display: inline-block;
+	margin-left: 85px;
+}
+.tab90pxlMarginLeft {
+	display: inline-block;
+	margin-left: 90px;
+}	
+.tab95pxlMarginLeft {
+	display: inline-block;
+	margin-left: 95px;
+}
+.tab100pxlMarginLeft {
+	display: inline-block;
+	margin-left: 100px;
+}
+.tab110pxlMarginLeft {
+	display: inline-block;
+	margin-left: 110px;
+}	
+.tab120pxlMarginLeft {
+	display: inline-block;
+	margin-left: 120px;
+}
+.tab130pxlMarginLeft {
+	display: inline-block;
+	margin-left: 130px;
+}	
+.tab140pxlMarginLeft {
+	display: inline-block;
+	margin-left: 140px;
+}
+.tab150pxlMarginLeft {
+	display: inline-block;
+	margin-left: 150px;
+}	
+.tab160pxlMarginLeft {
+	display: inline-block;
+	margin-left: 160px;
+}
+
