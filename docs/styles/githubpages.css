@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: white;
 }
 
 a {
@@ -75,11 +74,10 @@ li {
 }
 
 div {
-  margin-left: 20%;
+  margin-left: 0;
   padding: 1px 16px;
   height: 300px;
   text-align: left;
-  color: white;
 }
 
 .container {
