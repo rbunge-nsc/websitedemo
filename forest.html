@@ -13,22 +13,34 @@
           border-radius:20px;
           vertical-align: top;
         }
+    .ulclass{
+      display: inline-block;
+    }
+    a {
+      color: rgba(165, 67, 42, 0.753);
+    }
+    li::marker {
+      color: rgba(165, 67, 42, 0.753);
+    }
 </style>
 
 </head>
 <body style="background-color: black;">
 
-<h1><font color = "lightgreen">Explore the Forest</font></h1>
+<h1><center><font color = "rgba(165, 67, 42, 0.753)">Explore the Forest</font></center></h1>
 
 
-<img src = "images/forest.jpg" alt="Rampart Ridge" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Level Up!</figcaption>
+<center><img src = "images/forest.jpg" alt="Haunting!!! " onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
+<figcaption><center>Level Up!</center></figcaption>
 
-<p id="alttext" style="font-size:50px"> <p>
+<center style="color: yellow;"><p id="alttext" style="font-size:50px"><p></center>
 
-<ul>
-<li><a href="index.html">Table of Contents</a></li>
-</ul>
+<div>
+  <center><ul class="ulclass">
+    <li><a href="https://en.wikipedia.org/wiki/Forest">Forest wiki</a></li>
+    <li><a href="index.html">Table of Contents</a></li>
+  </ul></center>
+</div>
 
 </body>
 </html>
