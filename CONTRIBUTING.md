@@ -26,9 +26,7 @@
 
 ## Bug Reports
 > Bugs are tracked here: [Bug Board](https://github.com/users/firejewels/projects/7/views/1)
-This is how we make sure the team is aware of features that are missing or where the code needs a little work.
-
-> All team members are resposible for posting and updating the board when an item needs to be closed.
+This is how we make sure the team is aware of features that are missing or where the code needs a little work. All team members are resposible for posting and updating the board when an item needs to be closed.
 
 ## Code of Conduct
 > Best Practice is to have a team member review your changes and pull requests and approve by merging the code into main.
