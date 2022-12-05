@@ -4,10 +4,10 @@
 [![GitHub Super-Linter](https://github.com/firejewels/It115-Group-3-Project_sandbox/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 > We will use a fork of [websitedemo](https://github.com/rbunge-nsc/websitedemo) as the seed code for our project.
->
+
 > •	Our project is a website that pulls together resources for anyone who wants to learn git and use GitHub. We used HTML, CSS, PlantUML, Visual Studio Code, gitk, GitHub, SuperLinter and AWS. All of these technologies are free to use, except for AWS, where we had access to a free student account through our school.
 
-> •	We wanted to share our journey as we learned different techniques and software in order to become proficient in git and shared our work through GitHub. Our website includes key items that we learned and tips for starting your own journey. 
+> •	We wanted to share our journey as we learned different techniques and software in order to become proficient in git and shared our work through GitHub. Our website includes key items that we learned and tips for starting your own journey.
 
 > •	One challenge we faced was using a SuperLinter status badge at the top of the README file to catch coding errors during pull requests. We had introduced known errors but the linter was not catching them. We realized that super-linter.yml had been added after the bugs were introduced. We did a fix involving the setting: VALIDATE_ALL_CODEBASE. It had defaulted to false, meaning it would only check the code after it was installed. We needed it to check all of the code, so we changed it to be true.
 
@@ -31,10 +31,10 @@
 
 ## Credits
 Group members names and main role
- >       Amna [Testing]
- >       Chris [Deployment]
- >       Joshua [GitHub Repo Owner]
- >       Julyah [Project Management]
+ >Amna [Testing]
+ >Chris [Deployment]
+ >Joshua [GitHub Repo Owner]
+ >Julyah [Project Management]
 
 
 
