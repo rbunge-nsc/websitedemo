@@ -4,7 +4,7 @@
 [![GitHub Super-Linter](https://github.com/twopercentjazz/It115-Group-3-Project/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 > We will use a fork of [websitedemo](https://github.com/rbunge-nsc/websitedemo) as the seed code for our project.
->
+
 > •	The point of this project is to get hands on experience using Git/GitHub by collaborating with a group to create and launch a website (by reuseing, editing, modifying, deleting, or doing anything we want to with the forked seed code). Our group chose to modify 'websitedemo' by each creating a GitHub tutorial Page.
 
 > •	Our project is a website that pulls together resources for anyone who wants to learn git and use GitHub. We used HTML, CSS, PlantUML, Visual Studio Code, gitk, GitHub, SuperLinter and AWS. All of these technologies are free to use, except for AWS, where we had access to a free student account through our school.
@@ -61,10 +61,10 @@ Group members names and main role
 >* List three main things you learned by doing this project.
 
 ### Learn More about this project at our GitHub Pages site
-[Visit our GitHub pages site.](https://joshg1224.github.io/It115-Group-3-Project/)
+>[Visit our GitHub pages site.](https://joshg1224.github.io/It115-Group-3-Project/)
 
-## Launching Our Project
-We use AWS to host our production website. [Visit our live production site.](http://it115group3project.s3-website-us-west-2.amazonaws.com/)
+### Launching Our Project
+>We use AWS to host our production website. [Visit our live production site.](http://it115group3project.s3-website-us-west-2.amazonaws.com/)
 
-## Bug Reports
-Report bugs here: [Bug Board](https://github.com/users/firejewels/projects/7/views/1)
+### Bug Reports
+>Report bugs here: [Bug Board](https://github.com/users/firejewels/projects/7/views/1)
