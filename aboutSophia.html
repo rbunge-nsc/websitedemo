@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+     * {
+          padding: 0;
+          
+     }
+     h1 {
+          color:#004400;
+          margin-bottom: 7px;
+     }
+     h3{
+          color:turquoise;
+          margin-bottom: 7px;
+     }
+     div#wraper{
+          width: 940px;
+          margin: 0 auto 0 auto;
+          border: 1px solid #ccc;
+          padding: 20px;
+
+     }
+     img{
+          float: right;
+          border: 5px burlywood solid;
+          margin: 0 0 20px 30px;
+          padding: 20px; /*adding space inside the border*/
+          background-color: bisque;
+     }
+     body{
+          background-color: beige;
+     }
+     p,ol,ul{
+          margin-bottom: 20px;
+     }
+     ul,ol{
+          margin: 0 0 20px 30px;
+     }
+     
+</style>
+</head>
+<body>
+<div id = "wraper"> <!--this is a box that we put all of our contet inside it-->
+
+<h1>This is a picture from my village</h1>
+<img src="images/download.jpg" alt= "My home town" width = "300" height = "300" />
+<!--image tag has no /> it is a self close tag src is the attribute-->
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+     ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+     Duis aute irure dolor in reprehenderit 
+    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+          Duis aute irure dolor in reprehenderit 
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <h3>Popular places in my Country</h3> 
+     <ol>
+          <li>Museum of Islamic Art</li>
+          <li>Dahla Dam</li>
+          <li>Minaret and Archaeological Remains of Jam</li>
+          <li>Band-e-amir National Park</li>
+          <li>Khost Mosque</li>
+     </ol>
+     <h3>my favorite images from my Country</h3>
+     <ul>
+          <li><a href = "https://www.trip.com/travel-guide/attraction/bakak/cultural-landscape-and-archaeological-remains-of-the-bamiyan-valley-50609678/">Bamiyan</a></li>
+          <li><a href ="https://www.trip.com/travel-guide/attraction/kabul/minaret-and-archaeological-remains-of-jam-50609543/">Remains-of-jam</a></li>
+          <li><a href = "https://www.trip.com/travel-guide/attraction/khost/khost-mosque-58328950/">Khost</a></li>
+          <li><a href = "https://www.trip.com/travel-guide/attraction/bamiyan/band-e-amir-national-park-61761040/">Band-e-Amir</a></li>
+</ul>
+     </div>
+</body>
+</html>
