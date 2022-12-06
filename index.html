@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Great Outdoors!</title>
+<title>Welcome to our Group!</title>
 <link rel="stylesheet" type="text/css" href="styles/toplevel.css">
-<script src="scripts/myscripts.js"></script>
 
 <style>
 
 h1 {
   /* color: rgb(31, 31, 194); */
-  color: rgb(157, 132, 11);
+  color:  rgb(19, 145, 183);
 }
 
 img {
-  border:10px solid rgb(182, 185, 14);
-  color: white;
+  border:10px solid rgb(19, 145, 183);
 }
 
-figcaption {
-  width: 315px;
-  text-align: left;
-  margin-left: 90px;
+.snowman {
+  width: 600px;
+  height: 300px;
+}
+
+.caption {
+  width: 200px;
+  /* text-align: left; */
+  /* margin-left: 200px; */
+  color: rgb(30, 144, 244);
+  font-size: 30px;
 }
 
 ul {
@@ -29,6 +34,10 @@ ul {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+}
+
+.ulclass {
+  display: inline-block;
 }
 
 li a {
@@ -40,29 +49,35 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: rgb(184, 156, 16);
+  background-color: rgb(38, 127, 186);
   color: white;
+
 </style>
 
 </head>
 
 <body>
 
-<h1>Welcome to Group 2 Outdoors!</h1>
+<center><h1>Welcome( ͡❛ ͜ʖ ͡❛).............</h1></center>
 
 
-<img src = "images/Green-Lake-view.png" alt="Explore" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Green Lake-Sky view!</figcaption>
+<center><img class="snowman" src = "images/snowman.jpg" alt="Home of the Kraken!" onmouseover="showAlt(this)" onmouseout="hideAlt(this)"></center>
+<figcaption class="caption"><center>Space Needle!</center></figcaption>
 
-<p id="alttext" style="font-size:30px"> <p>
+<center><p id="alttext" style="font-size:60px; color: red"></p></center>
 
-<ul>
-<li><a href="mountain.html">Climb the Mountain</a></li>
-<li><a href="forest.html">Wander the Forest</a></li>
-<li><a href="falls.html">See the Falls</a></li>
+<div> 
+<center>
+<ul class="ulclass">
+<li><a href="mountain.html">Orophobia</a></li>
+<li><a href="forest.html">Hylophobia</a></li>
+<li><a href="falls.html">Katarraktiphobia</a></li>
 <li><a href="guam.html">Thalassophobia</a></li>
 <li><a href="taipei101.html">Acrophobia</a></li>
 </ul>
+</center>
+</div> 
 
+<script src="scripts/myscripts.js"></script>
 </body>
 </html>
