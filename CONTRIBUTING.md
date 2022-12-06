@@ -13,7 +13,6 @@
 
 ## Environment Details
 > As this is a webpage, the environment setup is up to you.
-
 > Each team member is responsible for contributing to the production site using any Git/Github environment and local workflow they are most comfortable with.
 
 ## Submitting Changes
@@ -25,7 +24,6 @@
 
 ## Testing
 > We have a SuperLinter setup that will catch some code issues. Any bug that is caught here should be fixed before merging into main. Bugs found in main will be posted on the Bug Reports Board under Projects.
-
 > Testing your code after an edit is a process that should be performed locally throughout development.
 
 ## Bug Reports
@@ -33,8 +31,7 @@
 This is how we make sure the team is aware of features that are missing or where the code needs a little work. All team members are resposible for posting and updating the board when an item needs to be closed.
 
 ## Code of Conduct
-> Best Practice is to have a team member review your changes and pull requests and approve by merging the code into main. 
-
+> Best Practice is to have a team member review your changes and pull requests and approve by merging the code into main.
 > If a team member finds a bug when reviewing code, post it to the bug board and notify the author. Only merge clean code.
 
 ## License
