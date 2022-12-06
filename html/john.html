@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles/john.css">
+
+  <!-- TODO: Move to an external script -->
+  <script>
+    const toggleClassOnFirstMatch = (target, className) =>
+      document.getElementsByClassName(target)[0].classList.toggle(className)
+
+  
+    function toggleDarkMode (e) {
+      e.preventDefault();
+      document.getElementsByTagName("html")[0].classList.toggle("dark");
+      //document.getElementsByClassName("toggle-dark")[0].classList.toggle("active");
+      //document.getElementsByClassName("toggle-light")[0].classList.toggle("active");
+      toggleClassOnFirstMatch("toggle-dark", "active");
+      toggleClassOnFirstMatch("toggle-light", "active");
+    };
+
+    function toggleMenu(e) {
+      e.preventDefault();
+      document.getElementsByTagName("body")[0].classList.toggle("menu-active");
+      toggleClassOnFirstMatch("small-nav", "active");
+      
+    };
+
+    function toggleImageBox(e) {
+      e.preventDefault();
+      console.log("Toggling image box...")
+      const imageBox = document.getElementById("image-box");
+
+      if ([...imageBox.classList].includes("image-box-appear")){
+        imageBox.classList.add("image-box-to-hide");
+      } 
+      else {
+        imageBox.classList.add("image-box-appear");
+      }
+
+      imageBox.classList.toggle("active");
+
+      if ([...imageBox.classList].includes("image-box-to-hide")){
+        setTimeout(() => {
+          imageBox.classList.remove("image-box-appear");
+          imageBox.classList.remove("image-box-to-hide");
+        }, 200);
+      }
+    }
+
+    function navToGithub (e) {
+      e.preventDefault();
+      window.location.href = "https://github.com/jaohara/it115-team1-site"
+    }
+
+    window.addEventListener("keypress", (e) => {
+      console.log("Keypress event...")
+      console.log(e.code);
+      if (e.code === "Period") {
+        console.log(". keypress event...")
+        toggleImageBox(e);
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="image-box" class="" onClick="toggleImageBox(event)">
+    
+    <img id="image-box-image" src="" alt="" />
+  </div>
+
+  <header>
+    <div class="header-wrapper">
+      <ul class="main-nav">
+        <li class="main-nav-list-item">
+          <span class="main-nav-control toggle-dark active" onClick="toggleDarkMode(event)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon feather-x"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+          <span class="main-nav-control toggle-light" onClick="toggleDarkMode(event)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun feather-x"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  
+    <div id="content">
+      <!-- omit in toc -->
+<h1>John's Takeaways</h1>
+<ul>
+<li><a href="#what-i-learned-this-quarter">What I Learned this Quarter</a></li>
+<li><a href="#most-helpful-resources">Most Helpful Resources</a></li>
+<li><a href="#what-i-learned-about-how-git-is-structured">What I Learned About How Git is Structured</a></li>
+<li><a href="#what-i-learned-about-branches">What I Learned About Branches</a></li>
+<li><a href="#what-i-learned-about-github-actions">What I Learned About Github Actions</a></li>
+<li><a href="#in-summary">In Summary</a></li>
+</ul>
+<h1>What I Learned this Quarter</h1>
+<p>My main objective for taking this course was to become confident with git. As someone who has been doing software development for a few years now but never professionally, git had always seemed pretty daunting. It made sense for my own projects, but for those I would only scratch the surface of what git was used for.</p>
+<p>In this document I'll outline some of the more interesting things I noticed over my journey learning git this quarter.</p>
+<h1>Most Helpful Resources</h1>
+<p>There were two invaluable resources that I used during this course - the <a href="https://git-scm.com/doc">official git docs</a> and the <a href="https://www.oreilly.com/library/view/head-first-git/9781492092506/">Head First Git</a> book from O'Reilly.</p>
+<div class="image-wrapper">
+  <img src="../images/it115-git-docs.png" alt="Offical Git Docs" class="zoomable-image"/>
+</div>
+<p>The official git docs are the primary source of information about how the tool works. It covers all aspects of the software, and does so in a very condensed and information-dense manner. This works for and against it as a resource. While it is the most thorough, it can also be difficult to understand due to its density. <strong>I found that this resource worked best when you had a specific idea of what it was you needed clarification with.</strong>  If I was banging my head against a wall due to <a href="https://git-scm.com/docs/git-merge#_how_to_resolve_conflicts">merge conflicts</a> , the official docs were oftentimes the fastest way to an answer.</p>
+<p>Using the docs can be more challenging when you want a simplified, broader view of how git works. For these scenarios, I used the more friendly Head First Git.</p>
+<div class="image-wrapper">
+  <img src="../images/it115-head-first-git.png" alt="Head First Git" class="zoomable-image"/>
+</div>
+<p>Head First Git is another book in the O'Reilly &quot;Head First&quot; series, which are slightly less intimidating than their standard offerings. I've found the book series helpful for learning denser topics such as Data Structures and Algorithms in other courses of my study. They are filled with real world examples and abstractions to try and make the more complicated parts of the topic seem more approachable.</p>
+<p>Head First Git by Raju Gandhi is no exception to this - I found that when I was really confused on a topic, this book was often the simplest resource to help cut through and build understanding.</p>
+<p>This was also very useful for giving me a broader picture of how git works internally.</p>
+<h1>What I Learned About How Git is Structured</h1>
+<p>The first thing that surprised me - which maybe shouldn't have, seeing as git was made by Linux creator <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a> - was that <strong>a git repository is simply a series of directories and files.</strong></p>
+<p>Every project directory that has been initialized as a git repo has a hidden <code>.git</code> directory created within it to store everything that git needs to function. This can be explored from the root directory of any project that is using git.</p>
+<div class="image-wrapper">
+  <img src="../images/it115-git-structure.png" alt="Git Project Structure" class="zoomable-image"/>
+</div>
+<p>What really blew my mind is that <strong>this is where git keeps track of the actual changes between branches in the form of <code>diff</code> files.</strong>  Git works on the files in the directory, and when you switch from branch to branch, it applies all of diff files in order to get the working directory into the state of what it is on any given branch.</p>
+<p>This also introduced the important concept of <strong>staging area</strong> and what really happens with commits. When you make changes to the directory that aren't yet added and committed, there isn't any record of them in the internal git directory. If you were to switch branches without adding and committing these changes, git will completely discard them when it modifies the files to resemble the state of the other branch. <strong>This is why it is important to codify finished changes with a <code>git commit</code> and save unfinished changes with <code>git stash</code>.</strong></p>
+<h1>What I Learned About Branches</h1>
+<p>The other thing that really surprised me about git was that <strong>branches are just commits with a name attached to them.</strong> You can see this verified if you dig around in the <code>.git</code> directory.</p>
+<div class="image-wrapper">
+  <img src="../images/it115-git-branches.png" alt="Git Branches" class="zoomable-image"/>
+</div>
+<p>As you can see when inspecting the <code>jao-font-style-error</code> file in <code>.git/refs/head</code>, the branch itself is just the unique id of the most recent commit. This can be verified by using <code>git log -1 jao-font-sytle-error</code> to view the most recent commit on that same branch.</p>
+<p>Up until this point, I had been assuming that branches were more involved and therefore more precious. <strong>Branching and managing a workflow between branches was one of the more confusing aspects of git for me at the start of this course.</strong>  The realization that branches themselves were just references to the most recent commit helped to demystify the concept of branching for me, and also helped me understand the more confusing aspects of branching like solving merge conflicts via <a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing">rebasing</a>.</p>
+<h1>What I Learned About Github Actions</h1>
+<p>The most interesting thing I was able to do as a result of this course was to use Github Actions to automate the deployment of project code. This is something that I had heard about from other devs and had seen implemented in repositories, but had no idea how to do myself.</p>
+<p>After learning about Github Actions in class, I explored this concept further and looked at ways that I could use this for my own web development work, and created a repository for a static site that is deployed automatically when code changes are pushed or merged to <code>main</code>.</p>
+<div class="image-wrapper">
+  <img src="../images/it115-deploy-screen.png" alt="Deploying code with Github Actions" class="zoomable-image"/>
+</div>
+<p>I compiled my notes for this procedure on <a href="https://jaohara.github.io/it115-team1-site/">github pages.</a> The site itself is managed by a git repository that uses a node module called <a href="https://11ty.dev">11ty</a> to build assets into static resources to be served from a web browser.</p>
+<p>It surprised me how simple all of this really was - again, that's been the refrain for using git this quarter. I have already begun using this exact approach for my personal website and will probably using something similar for future projects.</p>
+<h1>In Summary</h1>
+<p>The biggest takeaway for me this quarter is that <strong>while it can be complex in its usage, git is remarkably simple at the core.</strong> It is built on the same principles of representing entities as files that <a href="https://en.wikipedia.org/wiki/Unix-like">Unix-like</a> operating systems like Linux, macOS, or BSD use internally. Knowing this, I'm able to see more clearly how operations on the git repository itself map to changes in the filesystem and where visual git tools pull their information from.</p>
+<p>I have already noticed what I've learned in this course improve my workflow in both my school and personal projects. During my Mobile Application Practicum course in the Application Development program, our project had us working on the open source <a href="https://github.com/ankidroid/Anki-Android">AnkiDroid App for Android.</a> Jumping into a large, existing project with a very well established repository structure would have been an impossible task, but the knowledge gained from this course helped me successfully contribute to this project.</p>
+<p>I'm sure that I will be using git for many years to come over the course of my new career. With how much I've learned this quarter I'm able to appreciate how much more I still have to learn about the tool, and I'm excited to figure out more of its inner workings as I move forward professionally.</p>
+
+    </div>
+    <footer>
+      <p>
+        Created in 2022 for IT115 at <a href="">North Seattle College</a>
+      </p>
+
+      <p><a href="https://github.com/jaohara/">jaohara <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github feather-x"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></p>
+
+    </footer>
+  
+</body>
+
+<script>
+  // add click listener to all zoomable images
+  [...document.getElementsByClassName("zoomable-image")].forEach(element => {
+    element.addEventListener("click", (e) => {
+      e.preventDefault();
+      document.getElementById("image-box-image").src = element.src;
+      toggleImageBox(e);
+    });
+  });
+
+  // add target="_blank" to all links
+  document.querySelectorAll("#content a").forEach(function(a){
+    a.setAttribute('target', '_blank');
+  })
+</script>
+</html>
