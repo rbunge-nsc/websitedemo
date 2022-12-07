@@ -21,9 +21,9 @@
 - [x] **Project Page** (GitHub Pages site)
 - [x] **Bug Reports Project Board**
 - [x] **Super-linter Workflow**
-- [ ] **All Project Pages and Assets** (Our Production Site)
+- [x] **All Project Pages and Assets** (Our Production Site)
 - [x] **Launch Our Site** (Deploy code to server)
-- [ ] **Group Project Presentation**
+- [x] **Group Project Presentation**
 
 ## Credits
 Group members names and main role
