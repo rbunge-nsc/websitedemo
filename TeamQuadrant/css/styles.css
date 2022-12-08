@@ -1,0 +1,186 @@
+/* Styles for my travel website */
+
+* {
+    margin:0;
+    padding:0;
+    /* Makes it so padding makes the inside smaller, not the box bigger*/
+    box-sizing:border-box;
+}
+
+body {
+    background:beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(../images/dragon.png)
+}
+
+#wrapper {
+    width:940px;
+    margin:20px auto;
+    background-color:lightblue;
+}
+
+header {
+    padding-bottom:16px;
+}
+
+#logo {
+    display:inline;
+}
+
+nav {
+    height:50px;
+    line-height:50px;
+    background:#eee;
+}
+
+nav li {
+    list-style-type:none;
+    float:left;
+    width:20%;
+    text-align:center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#D9961A;
+    display:block;
+}
+
+nav a:hover {
+    background:#79A5D3;
+    color:white;
+}
+
+.home li:nth-child(1) a, 
+.about li:nth-child(2) a, 
+.tours li:nth-child(3) a, 
+.promos li:nth-child(4) a, 
+.contact li:nth-child(5) a {
+    font-weight:bold;
+    color:#79A5D3;
+}
+
+#hero {
+    background:red;
+}
+
+/* the BAD way to resize your image */
+/* #hero img {
+    width:940px;
+} */
+
+main {
+    width:580px;
+    /* background:lightgreen; */
+    float:left;
+    margin-top:24px;
+}
+
+aside {
+    width:340px;
+    background:lightgreen;
+    padding:15px;
+    float:right;
+    margin-top:20px;
+}
+
+footer {
+    height:50px;
+    line-height:50px;
+    border-top:1px dotted #666;
+    clear:both;
+    font-size:.9em;
+}
+
+footer li {
+    list-style-type:none;
+    float:left;
+    margin-right:30px;
+    color:#666;
+}
+
+footer a {
+    color:#666;
+}
+
+figure {
+    margin-bottom:15px;
+}
+
+figcaption {
+    background:#000;
+    color:#fff;
+    font-size:.875em;
+    padding:8px;
+    font-style:italic;
+}
+
+/* ALL of your images will have a max-width of 100% */
+img {
+    max-width:100%;
+    display:block;
+}
+
+h1 {
+    font-weight:200;
+    font-size:2.44em;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+    margin-bottom:8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.2;
+    color:#D9961A;
+}
+
+h2 {
+    color:#555;
+    font-size:2em;
+}
+
+h3 {
+    color:#fff;
+    font-size:1.78em;
+    font-weight:200;
+    /* text-transform:lowercase; */
+}
+
+P {
+    margin-bottom:20px;
+    line-height:1.4;
+}
+
+aside p {
+    font-size:.9em;
+}
+
+img#gold {
+    width:300px;
+    float:left;
+    margin-right:10px;
+}
+
+img#wall {
+    width:300px;
+    float:right;
+    margin-left:10px;
+}
+
+img#logo {
+    width:100px;
+}
+
+img#biggold {
+    width:700px;
+    margin:20px auto;
+}
+
+.answerkey {
+    color:lightgreen;
+}
+
+.answerkey:hover {
+    color:black;
+}
