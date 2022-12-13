@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Great Outdoors!</title>
+<title>Welcome to our Group!</title>
 <link rel="stylesheet" type="text/css" href="styles/toplevel.css">
-<script src="scripts/myscripts.js"></script>
+
+<style>
+
+h1 {
+  /* color: rgb(31, 31, 194); */
+  color:  rgb(19, 145, 183);
+}
+
+img {
+  border:10px solid rgb(19, 145, 183);
+}
+
+.snowman {
+  width: 600px;
+  height: 300px;
+}
+
+.caption {
+  max-width: 200px;
+  /* text-align: left; */
+  /* margin-left: 200px; */
+  color: rgb(30, 144, 244);
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.ulclass {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(38, 127, 186);
+  color: white;
+}
+</style>
 
 </head>
 
 <body>
 
-<h1>Welcome to the Great Outdoors!</h1>
+<center><h1>Welcome to IT115-Group 2</h1></center>
 
 
-<img src = "images/lake.jpg" alt="Green Lake" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Your Adventure Awaits!</figcaption>
+<center><img class="snowman" src = "images/snowman.jpg" alt="Home of the Kraken!" onmouseover="showAlt(this)" onmouseout="hideAlt(this)"></center>
+<figcaption class="caption"><center>Space Needle!</center></figcaption>
 
-<p id="alttext" style="font-size:50px"> <p>
+<center><p id="alttext" style="font-size:60px; color: red"></p></center>
 
-<ul>
-<li><a href="mountain.html">Climb the Mountain</a></li>
-<li><a href="forest.html">Wander the Forest</a></li>
-<li><a href="falls.html">See the Falls</a></li>
+<div> 
+<center>
+<ul class="ulclass">
+<li><a href="mountain.html">Mountain</a></li>
+<li><a href="forest.html">Forest</a></li>
+<li><a href="falls.html">Waterfalls</a></li>
+<li><a href="guam.html">About Guam</a></li>
+<li><a href="taipei101.html">About Taiwan</a></li>
+<li><a href="aboutSophia.html">About Afghanistan</a></li>
+<li><a href="nashville.html">About Nashville</a></li>
 </ul>
+</center>
+</div> 
 
+<script src="scripts/myscripts.js"></script>
 </body>
 </html>
