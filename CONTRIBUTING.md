@@ -23,7 +23,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[CONTRIBUTING.md Code of Conduct](https://www.womenwhocode.com/codeofconduct).
+[Womenwhocode.com Code of Conduct](https://www.womenwhocode.com/codeofconduct).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to <>.
 
