@@ -15,10 +15,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Your First Code Contribution](#your-first-code-contribution)
 - [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-- [Commit Messages](#commit-messages)
-- [Join The Project Team](#join-the-project-team)
-
 
 ## Code of Conduct
 
@@ -114,14 +110,3 @@ Enhancement suggestions are tracked as [GitHub issues](/issues).
 
 
 
-### Your First Code Contribution
-
-
-### Improving The Documentation
-
-
-## Styleguides
-### Commit Messages
-
-## Attribution
-This guide is based on the **contributing.md**. [Make your own](https://contributing.md/)!
