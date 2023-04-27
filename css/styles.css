@@ -1,0 +1,149 @@
+.contact {
+  background: rgba(220, 220, 220, 0.9);
+  background-image: url('../images/jpnarcade.webp');
+  background-attachment: fixed;
+}
+
+h1 {
+color: darkred;
+text-align: center;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+h2 {
+color: black;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: black;
+  color: white;
+}
+
+div#wrapper {
+  width:940px;
+  /* height:550px; */
+  background: rgba(220, 220, 220, 0.9);
+  color: black;
+  padding: 0px;
+  margin: 0 auto 0 auto;
+  margin-bottom:20px;
+}
+
+p {
+  color: black;
+  font-family: Verdana, Helvetica, sans-serif;
+  text-align: left;
+  }
+header {
+  height:160px;
+  background:white;
+  display:flex;
+  justify-content:center;
+  padding-top:10px;
+
+}  
+
+
+footer {
+  width:940px;
+  height:50px;
+  line-height:50px;
+  background: white;
+  clear:both;
+  margin: 0 auto 0 auto;
+}
+li a:hover {
+  background-color: lightgrey;
+}
+
+main {
+  width:590px;
+  height:750px;
+  background: rgba(220, 220, 220, 0.9);
+  float:left;
+  padding:10px;
+  color:blue;
+
+}
+div#middle {
+  width:300px;
+  height:300px;
+  margin-left:20px;
+  margin-right:20px;
+  background: white;
+  float:left;
+  clear: right;
+
+}
+
+aside {
+  width:310px;
+  height:750px;
+  background: pink;
+  float:right;
+  clear:right;
+  padding:10px;
+}
+
+
+a {
+color: red;
+}
+
+form {
+  background-color: transparent;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:99%;
+}
+legend {
+    background-color:white;
+    color: black;
+    padding: 3px 6px;
+}
+
+.comment {
+        width: 95%;
+        height: 100px;
+        padding: 10px;
+      }
+footer li {
+  list-style-type:none;
+  float: left;
+  text-align:center;
+  white-space:nowrap;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 25%;
+}
+
+iframe {
+border: none;
+}
