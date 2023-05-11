@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Candy Cab Owners Club</title>
+
+<link rel="stylesheet" href="css/styles.css?v=1.0" type="text/css">
+
+</head>
+
+  
+
+<body class='form'>
+
+
+<fieldset>
+    <legend>Contact Info</legend>
+
+ <form id="my_form" action="formhandler.php" style="background-color: transparent;" method='post'>
+  <label for="alias">Alias (No Real Names):</label><br>
+  <input type="text" id="alias" name="alias"><br>
+  
+   <label for="email">Email Address</label><br>
+  <input type="email" id="email" name="email"><br>
+  </form>
+</fieldset>
+
+<fieldset>
+    <legend>Select your favorite candy cab manufacturer</legend>
+
+<form>
+ <input type="radio" id="namco" name="candymfg" value="Namco">
+  <label for="namco">Namco</label><br>
+  <input type="radio" id="sega" name="candymfg" value="SEGA">
+  <label for="sega">SEGA</label><br>
+  <input type="radio" id="taito" name="candymfg" value="Taito">
+  <label for="taito">Taito</label>
+</form>
+</fieldset>
+
+<fieldset>
+    <legend>Which candy cab manufacturer's products do you possess in your collection?</legend>
+
+<form>
+  <input type="checkbox" id="cab1" name="cab1" value="Namco">
+  <label for="cab1">Namco</label><br>
+  <input type="checkbox" id="cab2" name="cab2" value="SEGA">
+  <label for="cab2">SEGA</label><br>
+  <input type="checkbox" id="cab3" name="cab3" value="Taito">
+  <label for="cab3">Taito</label><br><br>
+</form>
+</fieldset>
+
+<fieldset>
+  <legend>Geographics</legend>
+  <form>
+  <label>Continent of Residence</label>
+  <select>
+  <option value="africa">Africa</option>
+  <option value="antarctica">Antarctica</option>
+  <option value="asia">Asia</option>  
+  <option value="australia">Australia</option>
+  <option value="europe">Europe</option>
+  <option value="northamerica">North America</option>
+  <option value="southamerica">South America</option>  
+  </select>
+  </form>
+  </fieldset>
+
+
+<fieldset>
+    <legend>Comments</legend>
+<form>
+ <textarea class="comment">Type your comment here.</textarea>
+  <input type="submit" value="Submit" formaction="thx.html">
+  </form> 
+</fieldset>
+</body>
+</html>
