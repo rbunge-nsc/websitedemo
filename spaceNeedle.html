@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The biggest attraction in Seattle</title>
+<link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
+<style>
+    #alttext {
+        font-size: 50px;
+    }
+
+    #description {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        width: 300px;
+        height: 200px;
+        overflow: auto;
+    }
+</style>
+<script>
+    function showAlt(image) {
+        document.getElementById("alttext").innerHTML = image.alt;
+    }
+
+    function hideAlt() {
+        document.getElementById("alttext").innerHTML = "";
+    }
+</script>
+</head>
+<body>
+<h1>The Space Needle</h1>
+<div id="description">
+    <div>
+        <p>The Space Needle is an iconic landmark in Seattle, Washington. It is a tower that was built for the 1962 World's Fair and has since become a symbol of the city. Standing at 605 feet tall, it offers breathtaking views of Seattle and the surrounding area. Visitors can take an elevator to the observation deck and enjoy panoramic vistas of the city skyline, mountains, and waterways.</p>
+    </div>
+</div>
+<img src="images/spaceNeedle.jpg" alt="Space Needle" onmouseover="showAlt(this)" onmouseout="hideAlt()">
+<figcaption>Take in the Scenery</figcaption>
+<p id="alttext"></p>
+<ul>
+<li><a href="index.html">Table of Contents</a></li>
+</ul>
+<script src="scripts/myscripts.js"></script>
+</body>
+</html>
