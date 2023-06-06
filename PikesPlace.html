@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pike's Place in Seattle</title>
+<link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
+<style>
+    #alttext {
+        font-size: 50px;
+    }
+
+    #description {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        width: 300px;
+        height: 200px;
+        overflow: auto;
+    }
+</style>
+<script>
+    function showAlt(image) {
+        document.getElementById("alttext").innerHTML = image.alt;
+    }
+
+    function hideAlt() {
+        document.getElementById("alttext").innerHTML = "";
+    }
+</script>
+</head>
+<body>
+<h1>Pike's Place</h1>
+<div id="description">
+    <div>
+        <p>Pike's Place is a famous public market in Seattle, Washington. It is a vibrant gathering place for locals and tourists alike, offering a wide variety of fresh produce, specialty foods, crafts, and much more. With its lively atmosphere and iconic storefronts, Pike's Place provides a unique and enjoyable shopping experience. Visitors can explore the market, sample local delicacies, and interact with the friendly vendors.</p>
+    </div>
+</div>
+<img src = "images/pikesPlace.jpg" alt="Pike's Place" onmouseover="showAlt(this)" onmouseout="hideAlt()">
+<figcaption>Discover the Market</figcaption>
+<p id="alttext"></p>
+<ul>
+<li><a href="index.html">Table of Contents</a></li>
+</ul>
+<script src="scripts/myscripts.js"></script>
+</body>
+</html>
