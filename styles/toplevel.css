@@ -1,22 +1,53 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: linen;
 }
 
-h1 {
-  color: navy;
+.home #wrapper {
+  width: 940px;
+  margin: 50px auto;
+  text-align: center;
 }
 
-img{
-  width:300px;
-  height:200px;
+
+img {
+  width:400px;
+  height:300px;
   border:10px solid green;
   color:white;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
-figcaption{
+figcaption {
   width: 315px;
-  text-align: left;
+  text-align: center;
   margin-left: 50px;
 }
+
+.home li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.home a {
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 1.7em;
+}
+
+/* Typography */
+
+.home h1 {
+  color: navy;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
