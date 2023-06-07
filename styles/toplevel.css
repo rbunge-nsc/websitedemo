@@ -1,10 +1,12 @@
 
 body {
   background-color: linen;
+  
 }
 
 h1 {
   color: navy;
+  font-size: 20px; /* Nahum added this font-size to it*/
 }
 
 img{
