@@ -1,0 +1,142 @@
+/*This is my indexstyles.css talking to my index.html*/
+
+*{padding:0; 
+margin:0;}
+
+body{background-color:whitesmoke;}
+
+div#wrapper{
+    width:940px;
+    margin: 0 auto 0 auto;
+    background-color: lightgray;
+    padding:2px;
+    border: 1px solid darkred;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {background-color: whitesmoke;
+width:940px;
+height: 95px;
+margin-bottom: 1px;
+padding:1px solid darkred;
+border-color: 1px solid darkred;}
+
+
+nav {height:60px;
+border: 1px solid darkred;
+}
+
+nav {height: 50px;
+    line-height: 50px;
+    background-color: black;}
+
+nav ul {list-style-type: none;}
+
+nav a {text-decoration: none;
+display:block;
+color: #fff;}
+
+nav a:hover {background: darkred;}
+
+#primary {height: 50px;
+line-height: 50px;
+background: black;
+margin-bottom: 1px;
+}
+
+#primary ul {list-style-type: none;
+width:940px;
+margin: 0 auto;
+}
+
+#primary li{float:left;
+width:20%;
+text-align: center;}
+
+#primary a {text-decoration: none;
+display:block;
+color:white;}
+
+#primary a:hover {background: darkred;
+color:#fff;}
+
+.home #primary li:nth-child(1) a 
+.about #primary li:nth-child(2) a, 
+.tours #primary li:nth-child(3) a, 
+.gallery #primary li:nth-child(4) a, 
+.contact #primary li:nth-child(5) a
+
+{background-color: darkred;
+color:white;}
+
+
+
+main {background-color: whitesmoke;
+    width:620px;
+    height:560px;
+    float:left;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border: 1px solid darkred;}
+
+div h1 {font-size: 40px;
+margin-left:200px;}
+
+
+main h1 {font-size:25px;
+    margin-left:10px;
+    margin-top: 40px;}
+
+h2 {font-size:25px;
+    margin-left:10px;
+    margin-top: 40px;}
+
+h3 {font-size:25px;
+    margin-left:40px;
+    margin-top: 40px;}
+
+h4 {font-size:25px;
+    margin-left:50px;
+    margin-top: 40px;}
+
+aside img {margin-top: 34px;
+font-size: 100%;}
+
+p {font-size: 20px;
+    line-height: 22px;
+margin-right: 10px;
+margin-left: 40px;
+margin-top: 5px;}
+
+aside {background-color: whitesmoke;
+width:312px;
+height: 560px;
+float:right;
+border: 1px solid darkred;
+margin-top: 1px;
+margin-bottom: 2px;}
+
+footer{ background-color: whitesmoke;
+width:938px;
+height: 50px;
+clear:both;
+border:1px solid darkred;
+line-height: 45px;
+margin-bottom: 1px;}
+
+footer ul {list-style-type: none;
+float:left;
+margin-right: 1px;}
+
+footer li {float:left;
+margin-top: 1px;
+margin-left: 30px;
+font-size: 18px;}
+
+footer a {color:darkred;
+font-size: 18px;}
+
+
+
