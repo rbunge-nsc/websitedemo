@@ -1,0 +1,214 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>index.html</title>
+        <link href="css/indexstyles.css" type="text/css" rel="stylesheet">
+
+        <style>
+            /*This is my indexstyles.css talking to my index.html*/
+
+*{padding:0; 
+    margin:0;}
+    
+    body{background-color:whitesmoke;}
+    
+    div#wrapper{
+        width:940px;
+        margin: 0 auto 0 auto;
+        background-color: lightgray;
+        padding:2px;
+        border: 1px solid darkred;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    header {background-color: whitesmoke;
+    width:940px;
+    height: 95px;
+    margin-bottom: 1px;
+    padding:1px solid darkred;
+    border-color: 1px solid darkred;}
+    
+    
+    nav {height:60px;
+    border: 1px solid darkred;
+    }
+    
+    nav {height: 50px;
+        line-height: 50px;
+        background-color: black;}
+    
+    nav ul {list-style-type: none;}
+    
+    nav a {text-decoration: none;
+    display:block;
+    color: #fff;}
+    
+    nav a:hover {background: darkred;}
+    
+    #primary {height: 50px;
+    line-height: 50px;
+    background: black;
+    margin-bottom: 1px;
+    }
+    
+    #primary ul {list-style-type: none;
+    width:940px;
+    margin: 0 auto;
+    }
+    
+    #primary li{float:left;
+    width:20%;
+    text-align: center;}
+    
+    #primary a {text-decoration: none;
+    display:block;
+    color:white;}
+    
+    #primary a:hover {background: darkred;
+    color:#fff;}
+    
+    .home #primary li:nth-child(1) a 
+    .about #primary li:nth-child(2) a, 
+    .tours #primary li:nth-child(3) a, 
+    .gallery #primary li:nth-child(4) a, 
+    .contact #primary li:nth-child(5) a
+    
+    {background-color: darkred;
+    color:white;}
+    
+    main {background-color: whitesmoke;
+        width:620px;
+        height:560px;
+        float:left;
+        margin-top: 1px;
+        margin-bottom: 2px;
+        border: 1px solid darkred;}
+    
+    div h1 {font-size: 40px;
+    margin-left:200px;}
+    
+    
+    main h1 {font-size:25px;
+        margin-left:10px;
+        margin-top: 40px;}
+    
+    h2 {font-size:25px;
+        margin-left:10px;
+        margin-top: 40px;}
+    
+    h3 {font-size:25px;
+        margin-left:40px;
+        margin-top: 40px;}
+    
+    h4 {font-size:25px;
+        margin-left:50px;
+        margin-top: 40px;}
+    
+    aside img {margin-top: 34px;
+    font-size: 100%;}
+    
+    p {font-size: 20px;
+        line-height: 22px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 5px;}
+    
+    aside {background-color: whitesmoke;
+    width:312px;
+    height: 560px;
+    float:right;
+    border: 1px solid darkred;
+    margin-top: 1px;
+    margin-bottom: 2px;}
+    
+    footer{ background-color: whitesmoke;
+    width:938px;
+    height: 50px;
+    clear:both;
+    border:1px solid darkred;
+    line-height: 45px;
+    margin-bottom: 1px;}
+    
+    footer ul {list-style-type: none;
+    float:left;
+    margin-right: 1px;}
+    
+    footer li {float:left;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 18px;}
+    
+    footer a {color:darkred;
+    font-size: 18px;}
+
+        </style>
+    </head>
+
+    <body class="home">
+        <div id="wrapper">
+            <header>
+                <div id="header">
+                <h1>Artificial Intelligence Webpage!</h1>
+            </div>
+
+            </header>
+
+            <nav id="primary">
+                <ul>
+                    <li><a href="index.html">INDEX</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tours.html">TOURS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </nav>
+            
+            <div id="hero">
+
+            </div>
+            <main>
+                <div id="content">
+                    <h3>Webpage linked to Main Branch called: Artificial Intelligence</h3>
+                    <p>Students: Bennett, Celeste and Nahum</p>
+                    <h3>Here is our first wiki  </h3>
+                        <p><a href="https://github.com/MrYanez/Artificial_Intelligence_Project/wiki">Click me to see first wikipage</a></p>
+                        <P>This wiki resies inside the artificial aintelligence prokect!</P>
+                    <h3>This is our second wiki called: wikipage</h3>       
+                        <p><a href=" https://github.com/MrYanez/Wikipage/wiki">Click me to see second wikipage</a></p>
+                        <p>This wiki is imported from a different repo called wikipage!</p>
+                    <h3>This is our main url repository, click me!</h3>
+                        <p><a href="https://github.com/MrYanez/Artificial_Intelligence_Project">Click me to see main repo artificial intelligence</a></p>
+                        <p>This link contains all info inside the artificial intelligence project!</p>
+                        <p><a href="../first-repo-project/index.html">Click me to see my webpage!</a></p>
+                </div>
+            </main>
+
+            <aside>
+                <h4>Sunset On the Road</h4>
+                <img src="../first-repo-project/images/road312.jpg" alt="Road">
+            </aside>
+
+            <footer>
+                <ul>
+                    <li>Copyright 2023 &copy;</li>
+                    <li>All rights reserved</li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Designed By Nahum Yanez</a></li>
+                    <li><a href="">Index.html</a></li>
+                    <li><a href="">Page Valid</a></li>
+                </ul>
+
+            </footer>
+
+        </div>
+
+    </body>
+</html>
