@@ -1,14 +1,46 @@
-# Contributing to CONTRIBUTING.md
+# Contributing
 
-First off, thanks for taking the time to contribute! ❤️
+When contributing to this repository, please keep all team members abreasts of your edits and/or alterations via Canvas email for our Intro to Software class, chaired by Robert.
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
+## Pull Request Process
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
-> - Star the project
-> - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+When you make an edit, send a pull requests, we can take turns merging and/or commit ourselves for the group project due in December 2023.
 
+## Code of Conduct
+Our code of conduct is simple: don't be a jerk.
 
-## Table of Contents
+### Our Pledge
+
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to NOT be a jerk and/or to-do what we tell our group/team we are going to-do.
+### Our Standards
+
+Examples of behavior that contributes to creating a positive environment
+include:
+
+*Not being a jerk
+
+Examples of unacceptable behavior by participants include:
+
+* Your Mama jokes....
+
+### Our Responsibilities
+
+We have a responsibility to treat our team/group project in the way that democracy should function - a majority rules. If group members don't participate and/or show up - they forefit their vote.
+There is no formal veto process.
+
+### Scope
+
+This Code of Conduct applies with our group project.
+
+### Enforcement
+
+The only enforcement we'll be privy to is our own sense of guilt and/or remorse for being a jerk - if that occurs - I suspect - it won't.
+
+### Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at [http://contributor-covenant.org/version/1/4][version]
+
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
