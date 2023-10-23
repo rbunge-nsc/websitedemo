@@ -115,18 +115,13 @@ Enhancement suggestions are tracked as [GitHub issues](/issues).
 
 
 ### Your First Code Contribution
-
+Look into certain factors when considering merging to main. Always work on your own branch and never the main branch. Remember to request approvals for changes or pushes to the main branch.
 
 ### Improving The Documentation
-
-
-## Styleguides
-### Commit Messages
-
+> We all live our personal lives so always wait for the team to connect and converse and come to an agreement before making any changes.
 
 ## Join The Project Team
-
-
+There is no one set person to make the decisions for everyone. We move together and review the work each team memebr did and make comments and suggestions before merging to main.
 
 ## Attribution
 This guide is based on the **contributing.md**. [Make your own](https://contributing.md/)!
