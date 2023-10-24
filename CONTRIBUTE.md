@@ -2,7 +2,7 @@
 
 > First off, thanks for taking the time to contribute! ❤️ 🧑‍💻 👍
 
-When working on the project, consider verifying from ALL parties of the group for this is a Group Project. No one should be making sole decisions for anyone else on the team. We all have our own voices and opinions so we ove with compromise and agreement with each other. Furthermore this is the Repo we all agreed on. We make separate branches and make changes to the repo. Look below for more info pertaining to this group project.
+When working on the project, consider verifying from ALL parties of the group for this is a Group Project. No one should be making sole decisions for anyone else on the team. We all have our own voices and opinions so we move with compromise and agreement with each other. Furthermore this is the Repo we all agreed on. We make separate branches and make changes to the repo. Look below for more info pertaining to this group project.
 
 > All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
@@ -12,16 +12,17 @@ When working on the project, consider verifying from ALL parties of the group fo
 - [Code of Conduct](#code-of-conduct)
 - [I Have a Question](#i-have-a-question)
 - [I Want To Contribute](#i-want-to-contribute)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
+- [Issues](#issues)
 - [Your First Code Contribution](#your-first-code-contribution)
 - [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-- [Commit Messages](#commit-messages)
+- [Group Standards](#group-standards)
 - [Join The Project Team](#join-the-project-team)
-
+- [Attribution](#attribution)
 
 ## Code of Conduct
+
+> Our code of conduct is simple: don't be a jerk.
+
 
 This project and everyone participating in it is governed by the
 [CONTRIBUTING.md Code of Conduct](blob/master/CODE_OF_CONDUCT.md).
@@ -50,11 +51,10 @@ We will then take care of the issue as soon as possible.
 > ### Legal Notice 
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
-### Reporting Bugs
+## Our Pledge
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to NOT be a jerk and/or to-do what we tell our group/team we are going to-do.
 
-
-#### Before Submitting a Bug Report
-
+#### Issues
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
@@ -87,42 +87,43 @@ Once it's filed:
 - A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
 - If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
 
-## Other Miscellaneous Information
-
-### Suggesting Enhancements
-
-This section guides you through submitting an enhancement suggestion for CONTRIBUTING.md, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
-
-
-#### Before Submitting an Enhancement
-
-- Make sure that you are using the latest version.
-- Read the [documentation]() carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
-
-
-#### How Do I Submit a Good Enhancement Suggestion?
-
-Enhancement suggestions are tracked as [GitHub issues](/issues).
-
-- Use a **clear and descriptive title** for the issue to identify the suggestion.
-- Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
-- **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. 
-- **Explain why this enhancement would be useful** to most CONTRIBUTING.md users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
-
-
-
 ### Your First Code Contribution
 Look into certain factors when considering merging to main. Always work on your own branch and never the main branch. Remember to request approvals for changes or pushes to the main branch.
 
 ### Improving The Documentation
 > We all live our personal lives so always wait for the team to connect and converse and come to an agreement before making any changes.
 
+***We all make contributions in the files as a group when merging to main. This gives each team member the responsibility to contribute a little of everything in the code/text/document/file***
+
+# Group Standards
+> Be Cordial and don't indugle in disrespectiful behavior. Here are some Mannerisms we expect everyone to understand as a **Standard** procedure.
+
+
+> **Examples of behavior that contributes to creating a positive environment include:**
+
+1. Using welcoming and inclusive language
+2. Being respectful of differing viewpoints and experiences
+3. Gracefully accepting constructive criticism
+4. Focusing on what is best for the group
+5. Showing empathy towards other group members
+
+
+> **Examples of unacceptable behavior by participants include:**
+
+1. The use of sexualized language or imagery and unwelcome sexual attention or advances
+2. Trolling, insulting/derogatory comments, and personal or political attacks
+3. Public or private harassment
+4. Publishing others' private information, such as a physical or electronic address, without explicit permission
+5. Other conduct which could reasonably be considered inappropriate in a professional setting
+
 ## Join The Project Team
 There is no one set person to make the decisions for everyone. We move together and review the work each team memebr did and make comments and suggestions before merging to main.
 
 ## Attribution
 This guide is based on the **contributing.md**. [Make your own](https://contributing.md/)!
-> Copyright @iggregiee
+> @iggregiee
+
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4
+> @mysticgwen
+> @khangdo201
+
