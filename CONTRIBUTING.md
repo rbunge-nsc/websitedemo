@@ -124,6 +124,6 @@ This guide is based on the **contributing.md**. [Make your own](https://contribu
 > @iggregiee
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4
-> @mysticgwen
 > @khangdo201
 
+> ReneMunozH
